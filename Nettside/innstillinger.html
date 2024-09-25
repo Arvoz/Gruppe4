@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IoT Fjernkontroll</title>
+    <title>Innstillinger - IoT Fjernkontroll</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-    <!-- Navigasjon (header) -->
+    <!-- Navigasjon -->
     <nav>
         <ul>
             <li><a href="index.html">Startside</a></li>
@@ -17,18 +17,37 @@
         </ul>
     </nav>
 
-    <!-- Hovedinnhold (main) -->
+    <!-- Main-innhold -->
     <main>
-        <section id="innstillinger">
-            <h1>Finn IoT-enheter</h1>
-            <p>Her kan du finne og pare IoT-enheter til fjernkontrollen.</p>
+        <h1>Søk etter IoT-enheter</h1>
+        <p>Klikk på knappen under for å finne tilgjengelige IoT-enheter som du kan pare med ESP32.</p>
+
+        <!-- Knapp for å starte søk etter IoT-enheter -->
+        <button id="searchDevicesButton">Søk etter enheter</button>
+
+        <!-- Liste over tilgjengelige IoT-enheter som kan pares -->
+        <section id="devicesList" style="display: none;">
+            <h2>Tilgjengelige IoT-enheter</h2>
+            <ul id="searchButton">
+                <li>
+                    Lyspære 1 <button>Pare med ESP32</button>
+                </li>
+                <li>
+                    Lyspære 2 <button>Pare med ESP32</button>
+                </li>
+                <li>
+                    Smarthjem-sensor <button>Pare med ESP32</button>
+                </li>
+            </ul>
         </section>
+
     </main>
 
-    <!-- Footer -->
     <footer>
         <p>&copy; 2024 IoT Fjernkontroll</p>
     </footer>
+
+    <script src="script.js"></script>
 
 </body>
 </html>
