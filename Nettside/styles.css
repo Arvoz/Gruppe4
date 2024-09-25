@@ -1,32 +1,26 @@
+/* Generell styling */
 html, body {
-    height: 100%; /* Sørger for at html- og body-elementene fyller hele høyden */
+    height: 100%;
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
 }
 
-/* Generell styling */
+/* Flexbox for layout */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
 }
 
-/* Navigasjonsmeny */
-nav {
-    background-color: #333;
-}
-
+/* Navigasjon */
 nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
     background-color: #333;
+    overflow: hidden;
 }
 
 nav ul li {
@@ -45,44 +39,20 @@ nav ul li a:hover {
     background-color: #111;
 }
 
-/* Main-innholdet sentrert */
+/* Main-innhold */
 main {
     flex-grow: 1;
     width: 60%;
-    margin: 0 auto;  /* Dette sentrerer innholdet */
+    margin: 0 auto;
     padding: 20px;
-    background-color: white;
+    background-color: #fff;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
-/* Seksjoner i main */
-main section {
-    margin-bottom: 40px;
-}
-
-/* Footer (bunntekst) */
 footer {
     background-color: #333;
     color: white;
     text-align: center;
     padding: 10px;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-}
-
-/* Mobilvennlig design (for små skjermer) */
-@media screen and (max-width: 768px) {
-    main {
-        width: 90%;
-    }
-    
-    nav ul li {
-        float: none;
-    }
-
-    nav ul li a {
-        text-align: left;
-        padding-left: 20px;
-    }
+    position: relative;
 }
