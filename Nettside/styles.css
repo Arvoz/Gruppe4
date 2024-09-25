@@ -15,11 +15,14 @@ body {
 }
 
 /* Navigasjon */
+nav {
+    background-color: #333;
+}
+
 nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    background-color: #333;
     overflow: hidden;
 }
 
@@ -51,12 +54,15 @@ main {
 
 #searchButton {
     list-style-type: none;
+    padding: 0;
 }
 
 #searchButton li {
     padding: 10px;
     background-color: #eee;
     margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
 }
 
 button {
