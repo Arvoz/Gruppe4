@@ -5,7 +5,7 @@ document.getElementById('searchDevicesButton').addEventListener('click', functio
 });
 
 // Funksjon for å legge en enhet til en gruppe
-document.getElementById('addToGroup').addEventListener('click', function() {
+document.getElementById('addToGroup').addEventListener('click', () => {
     const groupName = document.getElementById('groupName').value;
     const selectedDevice = document.getElementById('deviceSelect').value;
 
