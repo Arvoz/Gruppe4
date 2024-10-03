@@ -5,6 +5,7 @@ import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.sql.SQLIntegrityConstraintViolationException;
 
 public class DatabaseManager {
 
@@ -45,6 +46,7 @@ public class DatabaseManager {
                 System.out.println("Connection is null, cannot proceed.");
                 return; // Avslutt metoden hvis tilkoblingen mislykkes
             }
+        
     
             PreparedStatement stmt = conn.prepareStatement(query);
             stmt.setString(1, user.getUser());
@@ -52,7 +54,12 @@ public class DatabaseManager {
             stmt.executeUpdate();
             System.out.println("User added to database");
         } catch (SQLException e) {
-            e.printStackTrace();
+            if (e instanceof SQLIntegrityConstraintViolationException) {
+                System.out.println("Error: A user with this MAC address already exists.");
+            } 
+            else {
+                e.printStackTrace();
+            }
         }
     }
 

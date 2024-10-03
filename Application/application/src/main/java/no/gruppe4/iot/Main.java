@@ -17,10 +17,10 @@ public class Main {
 
         DatabaseManager dbManager = new DatabaseManager();
 
-        User newUser = new User("Erling", "00:11:22:33:44:55");
+        User newUser = new User("Stian", "00:11:22:33:44:50");
         dbManager.addUser(newUser);
 
-        User fetchedUser = dbManager.getUserById(1);
+        User fetchedUser = dbManager.getUserById(4);
         if (fetchedUser != null) {
             System.out.println("Fetched user: " + fetchedUser.getUser() + ", MAC: " + fetchedUser.getMacAddressController());
         }
