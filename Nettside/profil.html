@@ -19,51 +19,49 @@
 
     <!-- Main-innhold -->
     <main>
+        <!-- Liste over parede enheter -->
         <h1>Administrer enheter og grupper</h1>
 
-        <!-- Liste over parede enheter -->
-        <section id="pairedDevices">
-            <h2>Parede enheter</h2>
-            <p>Velg en enhet for å endre verdier:</p>
-            <ul>
-                <li>
-                    Lyspære 1 <button>Endre verdier</button>
-                </li>
-                <li>
-                    Lyspære 2 <button>Endre verdier</button>
-                </li>
-                <li>
-                    Smarthjem-sensor <button>Endre verdier</button>
-                </li>
-            </ul>
-        </section>
+<section id="pairedDevices">
+    <h2>Parede enheter</h2>
+    <p>Velg en enhet for å endre verdier:</p>
+    <ul>
+        <li>
+            Lyspære 1 <button class="btn-primary">Endre verdier</button>
+        </li>
+        <li>
+            Lyspære 2 <button class="btn-primary">Endre verdier</button>
+        </li>
+        <li>
+            Smarthjem-sensor <button class="btn-primary">Endre verdier</button>
+        </li>
+    </ul>
+</section>
 
-        <!-- Gruppering av enheter -->
-        <section id="groupDevices">
-            <h2>Grupper enheter</h2>
-            <p>Lag en gruppe og legg til enheter:</p>
+<section id="groupDevices">
+    <h2>Grupper enheter</h2>
+    <p>Lag en gruppe og legg til enheter:</p>
 
-            <!-- Skjema for å lage en gruppe -->
-            <form id="groupForm">
-                <label for="groupName">Gruppenavn:</label>
-                <input type="text" id="groupName" name="groupName" required><br><br>
+    <form id="groupForm">
+        <label for="groupName">Gruppenavn:</label>
+        <input type="text" id="groupName" name="groupName" required><br><br>
 
-                <label for="deviceSelect">Velg enhet:</label>
-                <select id="deviceSelect">
-                    <option value="Lyspære 1">Lyspære 1</option>
-                    <option value="Lyspære 2">Lyspære 2</option>
-                    <option value="Smarthjem-sensor">Smarthjem-sensor</option>
-                </select><br><br>
+        <label for="deviceSelect">Velg enhet:</label>
+        <select id="deviceSelect">
+            <option value="Lyspære 1">Lyspære 1</option>
+            <option value="Lyspære 2">Lyspære 2</option>
+            <option value="Smarthjem-sensor">Smarthjem-sensor</option>
+        </select><br><br>
 
-                <button type="button" id="addToGroup">Legg til i gruppe</button>
-            </form>
+        <button type="button" id="addToGroup" class="btn-primary">Legg til i gruppe</button>
+    </form>
 
-            <!-- Liste over grupper -->
-            <h3>Dine grupper</h3>
-            <ul id="groupList">
-                <!-- Grupper vil bli vist her -->
-            </ul>
-        </section>
+    <h3>Dine grupper</h3>
+    <ul id="groupList">
+        <!-- Grupper vil bli vist her -->
+    </ul>
+</section>
+
 
     </main>
 
