@@ -9,19 +9,21 @@
 void setup() {
   Serial.begin(115200);
   inputSetup(); // Setting up inputs from InputHandler
-  initWiFi(); // Connect to Wi-Fi from WiFiHandler
-  getHueID(); // Get Hue Lights status from HueHandler
-  serverStart(); // Start Async server from ServerHandler
-  serverHTML();
+  //initWiFi(); // Connect to Wi-Fi from WiFiHandler
+  // getHueID(); // Get Hue Lights status from HueHandler
+  //serverStart(); // Start Async server from ServerHandler
+  // serverHTML();
+  startAccessPoint();
+  startServer();
+
 }
 
 void loop() {
-  serverCleanup();
 
   if (button1Pressed()){
     lightsDefault();
   }
 
-  JSONUpdate();
+  // JSONUpdate();
   delay(10);
 }

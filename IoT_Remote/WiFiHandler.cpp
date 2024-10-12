@@ -1,17 +1,21 @@
 #include "WiFiHandler.h"
-#include <WiFi.h>
 
-// WiFi credentials (INSECURE FOR NOW HAVE TO FIX LATER)
-String ssid = "";
-String pwd = "";
+void startAccessPoint() {
+    WiFi.softAP(apSSID, apPassword);
+    Serial.print("Access Point IP: ");
+    Serial.println(WiFi.softAPIP());
+}
 
-void initWiFi() {
-  WiFi.mode(WIFI_STA);
-  WiFi.begin(ssid, pwd);
-  Serial.print("Connecting to WiFi ..");
-  while (WiFi.status() != WL_CONNECTED) {
-    Serial.print('.');
-    delay(1000);
-  }
-  Serial.println(WiFi.localIP());  // Print local IP address
+void connectToWiFi(const String& ssid, const String& password) {
+    WiFi.softAPdisconnect(true);
+    WiFi.begin(ssid.c_str(), password.c_str());
+    Serial.print("Kobler til WiFi ..");
+
+    while (WiFi.status() != WL_CONNECTED) {
+        delay(500);
+        Serial.print(".");
+    }
+    Serial.println("\nTilkoblet til WiFi!");
+    Serial.print("IP: ");
+    Serial.println(WiFi.localIP());
 }
