@@ -1,44 +1,52 @@
+
 <!DOCTYPE html>
 <html lang="no">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Startside - IoT Fjernkontroll</title>
-    <!-- Bruker Google Fonts for bedre typografi -->
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
     <!-- Navigasjon -->
     <nav>
-        <div class="container">
-            <ul>
-                <li><a href="index.html">Startside</a></li>
-                <li><a href="innstillinger.html">Innstillinger</a></li>
-                <li><a href="profil.html">Profiler</a></li>
-            </ul>
-        </div>
+        <ul>
+            <li><a href="index.html">Startside</a></li>
+            <li><a href="innstillinger.html">Innstillinger</a></li>
+            <li><a href="grupper.html">Grupper</a></li>
+        </ul>
     </nav>
 
     <!-- Main-innhold -->
     <main>
-        <div class="container">
-            <h1>Søk etter fjernkontroll</h1>
-            <p>Klikk på "Søk" for å finne tilgjengelige ESP32-enheter i nærheten.</p>
+        <h1>Velkommen til IoT Fjernkontroll</h1>
+        <p>Bruk denne fjernkontrollen til å konfigurere og styre dine smarthjem-enheter.</p>
 
-            <!-- Knapp for å søke etter ESP32-enheter -->
-            <form action="ssid-password.html" method="GET">
-                <button class="btn-primary" type="submit">Søk etter ESP32-enheter</button>
-            </form>
-        </div>
+        <!-- Knapp for å søke etter enheter -->
+        <button id="searchDevices" class="btn-primary">Søk etter ESP32-enheter</button>
+
     </main>
 
     <footer>
-        <div class="container">
-            <p>&copy; 2024 IoT Fjernkontroll</p>
-        </div>
+        <p>&copy; 2024 IoT Fjernkontroll</p>
     </footer>
+
+    <script>
+        // Sjekk om WiFi allerede er konfigurert, og hvis ja, send brukeren til hovedsiden
+        document.addEventListener('DOMContentLoaded', function() {
+            if (!localStorage.getItem('wifiConfigured')) {
+                window.location.href = 'ssid-password.html';  // Sender brukeren til WiFi-konfigurasjon hvis ikke konfigurert
+            } else {
+                window.location.href = 'hovedside.html';  // Sender brukeren til hovedsiden
+            }
+        });
+
+        // Når WiFi er konfigurert, kalles denne funksjonen
+        function wifiConfigured() {
+            localStorage.setItem('wifiConfigured', true);
+        }
+    </script>
 
 </body>
 </html>

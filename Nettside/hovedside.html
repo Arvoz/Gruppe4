@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hovedside - IoT Fjernkontroll</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .device-item {
+            background-color: #f8f8f8;
+            padding: 15px;
+            margin-bottom: 10px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .device-item button {
+            background-color: #3498db;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: not-allowed;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigasjon -->
+    <nav>
+        <ul>
+            <li><a href="hovedside.html">Hovedside</a></li>
+            <li><a href="innstillinger.html">Innstillinger</a></li>
+            <li><a href="grupper.html">Grupper</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main-innhold -->
+    <main>
+        <h1>Kontrollpanel for tilkoblede enheter</h1>
+        <p>Her kan du i fremtiden styre dine tilkoblede IoT-enheter:</p>
+
+        <!-- Enheter og kontroller med fiktive knapper -->
+        <section id="devicesControl">
+            <h2>Tilkoblede enheter</h2>
+            <div class="device-item">
+                Philips Hue Lyspære 
+                <button disabled>Endre innstillinger</button>
+            </div>
+            <div class="device-item">
+                Sonos Høyttaler 
+                <button disabled>Endre innstillinger</button>
+            </div>
+            <div class="device-item">
+                Google Nest Termostat
+                <button disabled>Endre innstillinger</button>
+            </div>
+            <div class="device-item">
+                Yale Smart Lock 
+                <button disabled>Endre innstillinger</button>
+            </div>
+            <div class="device-item">
+                Arlo Outdoor Cam 
+                <button disabled>Endre innstillinger</button>
+            </div>
+            <div class="device-item">
+                Samsung SmartThings Klokke
+                <button disabled>Endre innstillinger</button>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2024 IoT Fjernkontroll</p>
+    </footer>
+
+</body>
+</html>

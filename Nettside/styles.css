@@ -1,3 +1,4 @@
+
 /* Generell styling */
 html, body {
     height: 100%;
@@ -59,6 +60,7 @@ main {
 h1 {
     color: #2c3e50;
     margin-bottom: 20px;
+    font-size: 2em;
 }
 
 p {
@@ -66,9 +68,9 @@ p {
     line-height: 1.6;
 }
 
-/* Søk-knappen */
-button {
-    padding: 12px 25px;
+/* Knappestil */
+.btn-primary {
+    padding: 8px 15px;
     background-color: #1abc9c;
     color: white;
     border: none;
@@ -78,8 +80,25 @@ button {
     transition: background-color 0.3s;
 }
 
-button:hover {
+.btn-primary:hover {
     background-color: #16a085;
+}
+
+/* Grå boksstil for enheter */
+.paired-device, .group-container {
+    padding: 15px;
+    background-color: #f4f4f4;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+}
+
+.paired-device:hover, .group-container:hover {
+    background-color: #e0e0e0;
 }
 
 /* Liste over enheter */
@@ -97,6 +116,41 @@ button:hover {
     align-items: center;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+}
+
+#searchButton li:hover {
+    background-color: #e0e0e0;
+}
+
+/* Enhetsliste i gruppen */
+.device-list {
+    padding-left: 20px;
+    list-style-type: none;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    main {
+        width: 95%;
+        margin: 20px auto;
+        padding: 15px;
+    }
+
+    button {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    #searchButton li {
+        flex-direction: column;
+        align-items: flex-start;
+    }
 }
 
 /* Footer */

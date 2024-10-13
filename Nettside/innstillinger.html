@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="no">
 <head>
@@ -5,6 +6,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Innstillinger - IoT Fjernkontroll</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        .btn-danger {
+            padding: 8px 15px;
+            background-color: #e74c3c;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .btn-danger:hover {
+            background-color: #c0392b;
+        }
+
+        .paired-container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .paired-container span {
+            margin-right: 10px;
+            font-weight: bold;
+        }
+    </style>
 </head>
 <body>
 
@@ -13,32 +41,76 @@
         <ul>
             <li><a href="index.html">Startside</a></li>
             <li><a href="innstillinger.html">Innstillinger</a></li>
-            <li><a href="profil.html">Profiler</a></li>
+            <li><a href="grupper.html">Grupper</a></li>
         </ul>
     </nav>
 
     <!-- Main-innhold -->
     <main>
-        <h1>Søk etter IoT-enheter</h1>
-        <p>Klikk på knappen under for å finne tilgjengelige IoT-enheter som du kan pare med ESP32.</p>
-        
-        <button id="searchDevicesButton" class="btn-primary">Søk etter enheter</button>
-        
-        <section id="devicesList" style="display: none;">
-            <h2>Tilgjengelige IoT-enheter</h2>
+        <h1>Innstillinger</h1>
+
+        <!-- Tilgjengelige enheter -->
+        <section id="pairedDevices">
+            <h2>Tilkoblede enheter</h2>
+            <p>Her er en oversikt over de tilgjengelige IoT-enhetene:</p>
             <ul id="searchButton">
-                <li>
-                    Lyspære 1 <button class="btn-primary">Pare med ESP32</button>
+                <li id="device1" class="paired-container">
+                    Philips Hue Lyspære 
+                    <div>
+                        <button class="btn-primary" onclick="pairDevice('device1')">Pare med ESP32</button>
+                        <span style="display:none;">Enhet paret!</span>
+                        <button class="btn-danger" style="display:none;" onclick="unpairDevice('device1')">Fjern paring</button>
+                    </div>
                 </li>
-                <li>
-                    Lyspære 2 <button class="btn-primary">Pare med ESP32</button>
+                <li id="device2" class="paired-container">
+                    Sonos Høyttaler 
+                    <div>
+                        <button class="btn-primary" onclick="pairDevice('device2')">Pare med ESP32</button>
+                        <span style="display:none;">Enhet paret!</span>
+                        <button class="btn-danger" style="display:none;" onclick="unpairDevice('device2')">Fjern paring</button>
+                    </div>
                 </li>
-                <li>
-                    Smarthjem-sensor <button class="btn-primary">Pare med ESP32</button>
+                <li id="device3" class="paired-container">
+                    Google Nest Termostat
+                    <div>
+                        <button class="btn-primary" onclick="pairDevice('device3')">Pare med ESP32</button>
+                        <span style="display:none;">Enhet paret!</span>
+                        <button class="btn-danger" style="display:none;" onclick="unpairDevice('device3')">Fjern paring</button>
+                    </div>
+                </li>
+                <li id="device4" class="paired-container">
+                    Yale Smart Lock
+                    <div>
+                        <button class="btn-primary" onclick="pairDevice('device4')">Pare med ESP32</button>
+                        <span style="display:none;">Enhet paret!</span>
+                        <button class="btn-danger" style="display:none;" onclick="unpairDevice('device4')">Fjern paring</button>
+                    </div>
+                </li>
+                <li id="device5" class="paired-container">
+                    Arlo Outdoor Cam
+                    <div>
+                        <button class="btn-primary" onclick="pairDevice('device5')">Pare med ESP32</button>
+                        <span style="display:none;">Enhet paret!</span>
+                        <button class="btn-danger" style="display:none;" onclick="unpairDevice('device5')">Fjern paring</button>
+                    </div>
+                </li>
+                <li id="device6" class="paired-container">
+                    Samsung SmartThings Alarmklokke
+                    <div>
+                        <button class="btn-primary" onclick="pairDevice('device6')">Pare med ESP32</button>
+                        <span style="display:none;">Enhet paret!</span>
+                        <button class="btn-danger" style="display:none;" onclick="unpairDevice('device6')">Fjern paring</button>
+                    </div>
                 </li>
             </ul>
         </section>
-        
+
+        <!-- Knapp for å bytte WiFi nederst på siden -->
+        <section id="networkSettings">
+            <h2>Nettverksinnstillinger</h2>
+            <p>Trykk på knappen nedenfor for å endre WiFi-tilkoblingen.</p>
+            <a href="ssid-password.html" class="btn-primary">Bytt WiFi-tilkobling</a>
+        </section>
 
     </main>
 
@@ -46,7 +118,56 @@
         <p>&copy; 2024 IoT Fjernkontroll</p>
     </footer>
 
-    <script src="script.js"></script>
+    <script>
+        // Last paired device status from localStorage on page load
+        document.addEventListener('DOMContentLoaded', function() {
+            loadPairingStatus();
+        });
+
+        // Function to save pairing status to localStorage
+        function savePairingStatus(deviceId, isPaired) {
+            localStorage.setItem(deviceId, isPaired ? 'paired' : 'unpaired');
+        }
+
+        // Function to load pairing status from localStorage and update UI
+        function loadPairingStatus() {
+            const devices = ['device1', 'device2', 'device3', 'device4', 'device5', 'device6'];
+            devices.forEach(deviceId => {
+                const status = localStorage.getItem(deviceId);
+                if (status === 'paired') {
+                    pairDevice(deviceId, true);  // Pairing UI update without saving again
+                }
+            });
+        }
+
+        // Fiktiv paring av enheter
+        function pairDevice(deviceId, skipSave = false) {
+            const deviceElement = document.getElementById(deviceId);
+            deviceElement.querySelector('.btn-primary').style.display = 'none';
+
+            // Vis "Enhet paret!" tekst og den røde fjern-paring knappen
+            deviceElement.querySelector('span').style.display = 'inline';
+            deviceElement.querySelector('.btn-danger').style.display = 'inline-block';
+
+            // Save pairing status unless it's just loading the status
+            if (!skipSave) {
+                savePairingStatus(deviceId, true);
+            }
+        }
+
+        // Fiktiv fjerning av paring
+        function unpairDevice(deviceId) {
+            const deviceElement = document.getElementById(deviceId);
+            deviceElement.querySelector('.btn-primary').style.display = 'inline-block';
+            deviceElement.querySelector('.btn-danger').style.display = 'none';
+            
+            // Fjern "Enhet paret!" teksten
+            deviceElement.querySelector('span').style.display = 'none';
+
+            // Save unpairing status
+            savePairingStatus(deviceId, false);
+        }
+    </script>
 
 </body>
 </html>
