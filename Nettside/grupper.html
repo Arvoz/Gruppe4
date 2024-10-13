@@ -65,12 +65,21 @@
 
                 <label for="deviceSelect">Velg enhet:</label>
                 <select id="deviceSelect">
+<<<<<<< Updated upstream
                     <option value="Philips Hue Lyspære">Philips Hue Lyspære</option>
                     <option value="Sonos Høyttaler">Sonos Høyttaler</option>
                     <option value="Google Nest Termostat">Google Nest Termostat</option>
                     <option value="Yale Smart Lock">Yale Smart Lock</option>
                     <option value="Arlo Outdoor Cam">Arlo Outdoor Cam</option>
                     <option value="Samsung SmartThings Klokke">Samsung SmartThings Klokke</option>
+=======
+                    <option value="Philips Hue (Lyspære)">Philips Hue (Lyspære)</option>
+                    <option value="Sonos høyttaler">Sonos høyttaler</option>
+                    <option value="Google Nest (Termostat)">Google Nest (Termostat)</option>
+                    <option value="Yale Smart Lock">Yale Smart Lock</option>
+                    <option value="Arlo Outdoor Cam">Arlo Outdoor Cam</option>
+                    <option value="Samsung SmartThings Hub">Samsung SmartThings Hub</option>
+>>>>>>> Stashed changes
                 </select><br><br>
 
                 <button type="button" onclick="addGroup()" id="addToGroup" class="btn-primary">Legg til i gruppe</button>
@@ -92,7 +101,26 @@
     </footer>
 
     <script>
+<<<<<<< Updated upstream
         const groups = {}; // Object to store group names and their devices
+=======
+        const groups = JSON.parse(localStorage.getItem("groups")) || {}; // Load from localStorage or initialize
+
+        // Function to save groups to localStorage
+        function saveGroups() {
+            localStorage.setItem("groups", JSON.stringify(groups));
+        }
+
+        // Function to load groups from localStorage and render them
+        function loadGroups() {
+            Object.keys(groups).forEach(groupName => {
+                addGroupHeader(groupName);
+                groups[groupName].forEach(device => {
+                    addDeviceToGroup(groupName, device);
+                });
+            });
+        }
+>>>>>>> Stashed changes
 
         // Function to add a device to a group
         function addGroup() {
@@ -111,6 +139,10 @@
             if (!groups[groupName].includes(selectedDevice)) {
                 groups[groupName].push(selectedDevice);
                 addDeviceToGroup(groupName, selectedDevice);
+<<<<<<< Updated upstream
+=======
+                saveGroups(); // Save the updated groups
+>>>>>>> Stashed changes
             } else {
                 alert(`${selectedDevice} er allerede i gruppen ${groupName}.`);
             }
@@ -147,12 +179,20 @@
 
             // Remove the device from the group's array
             groups[groupName] = groups[groupName].filter(d => d !== device);
+<<<<<<< Updated upstream
+=======
+            saveGroups(); // Save the updated groups
+>>>>>>> Stashed changes
 
             // If the group is empty, remove the group header
             if (groups[groupName].length === 0) {
                 const groupHeader = document.querySelector(`.group-header:contains(${groupName})`);
                 if (groupHeader) groupHeader.remove();
                 delete groups[groupName];
+<<<<<<< Updated upstream
+=======
+                saveGroups(); // Save the updated groups after deletion
+>>>>>>> Stashed changes
             }
         }
 
@@ -160,7 +200,16 @@
         function resetGroups() {
             document.getElementById("groupList").innerHTML = "";
             Object.keys(groups).forEach(group => delete groups[group]);
+<<<<<<< Updated upstream
         }
+=======
+            saveGroups(); // Save empty state to localStorage
+        }
+
+        // Load groups when page loads
+        document.addEventListener('DOMContentLoaded', loadGroups);
+
+>>>>>>> Stashed changes
     </script>
 
 </body>
