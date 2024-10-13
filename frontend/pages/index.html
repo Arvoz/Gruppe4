@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Startside - IoT Fjernkontroll</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+
+    <!-- Navigasjon -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Startside</a></li>
+            <li><a href="innstillinger.html">Innstillinger</a></li>
+            <li><a href="grupper.html">Grupper</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main-innhold -->
+    <main>
+        <h1>Velkommen til IoT Fjernkontroll</h1>
+        <p>Bruk denne fjernkontrollen til å konfigurere og styre dine smarthjem-enheter.</p>
+
+        <!-- Knapp for å søke etter enheter -->
+        <button id="searchDevices" class="btn-primary">Søk etter ESP32-enheter</button>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2024 IoT Fjernkontroll</p>
+    </footer>
+
+    <script>
+        // Sjekk om WiFi allerede er konfigurert, og hvis ja, send brukeren til hovedsiden
+        document.addEventListener('DOMContentLoaded', function() {
+            if (!localStorage.getItem('wifiConfigured')) {
+                window.location.href = 'ssid-password.html';  // Sender brukeren til WiFi-konfigurasjon hvis ikke konfigurert
+            } else {
+                window.location.href = 'hovedside.html';  // Sender brukeren til hovedsiden
+            }
+        });
+
+        // Når WiFi er konfigurert, kalles denne funksjonen
+        function wifiConfigured() {
+            localStorage.setItem('wifiConfigured', true);
+        }
+    </script>
+
+</body>
+</html>
