@@ -13,20 +13,26 @@ namespace SimpleGUIApp
         public Form1()
         {
             // Initialize form and controls
+            this.Text = "Dynamic Resizing Example";
+            this.Size = new System.Drawing.Size(600, 400);  // Initial window size
+            this.MinimumSize = new System.Drawing.Size(400, 300);  // Minimum form size
+
             SetupButton();
             SetupSecondButton();
             SetupScreen();
             SetupTrackBar();
+
+            // Enable dynamic resizing for controls
+            this.Resize += new EventHandler(Form1_Resize);
         }
 
         // Setup the first button
         private void SetupButton()
         {
             myButton = new Button();
-            myButton.Text = "Button One";
+            myButton.Text = "Press Me";
             myButton.Size = new System.Drawing.Size(100, 50);
-            myButton.Location = new System.Drawing.Point(100, 100);
-            myButton.Click += new EventHandler(MyButton_Click);
+            myButton.Location = new System.Drawing.Point(50, 50);
             Controls.Add(myButton);
         }
 
@@ -34,10 +40,9 @@ namespace SimpleGUIApp
         private void SetupSecondButton()
         {
             secondButton = new Button();
-            secondButton.Text = "Button Two";
+            secondButton.Text = "Second Button";
             secondButton.Size = new System.Drawing.Size(100, 50);
-            secondButton.Location = new System.Drawing.Point(250, 100);
-            secondButton.Click += new EventHandler(SecondButton_Click);
+            secondButton.Location = new System.Drawing.Point(200, 50);
             Controls.Add(secondButton);
         }
 
@@ -47,9 +52,10 @@ namespace SimpleGUIApp
             screenTextBox = new TextBox();
             screenTextBox.Multiline = true;
             screenTextBox.ReadOnly = true;
-            screenTextBox.Size = new System.Drawing.Size(300, 100);
-            screenTextBox.Location = new System.Drawing.Point(100, 200);
+            screenTextBox.Text = "Screen Output";
             screenTextBox.Font = new System.Drawing.Font("Consolas", 12);
+            screenTextBox.Location = new System.Drawing.Point(50, 150);
+            screenTextBox.Size = new System.Drawing.Size(500, 100);  // Initial size
             Controls.Add(screenTextBox);
         }
 
@@ -61,22 +67,42 @@ namespace SimpleGUIApp
             myTrackBar.Maximum = 12;
             myTrackBar.Value = 1;
             myTrackBar.TickFrequency = 1;
-            myTrackBar.Size = new System.Drawing.Size(200, 45);
-            myTrackBar.Location = new System.Drawing.Point(100, 350);
-            myTrackBar.Scroll += new EventHandler(TrackBar_Scroll);
+            myTrackBar.Size = new System.Drawing.Size(500, 45);  // Initial size
+            myTrackBar.Location = new System.Drawing.Point(50, 300);
             Controls.Add(myTrackBar);
+        }
+
+        // Event handler for dynamically resizing the controls
+        private void Form1_Resize(object sender, EventArgs e)
+        {
+            // Get current form size
+            int formWidth = this.ClientSize.Width;
+            int formHeight = this.ClientSize.Height;
+
+            // Dynamically resize and reposition controls based on form size
+            myButton.Location = new System.Drawing.Point(formWidth / 20, formHeight / 20);
+            myButton.Size = new System.Drawing.Size(formWidth / 6, formHeight / 10);
+
+            secondButton.Location = new System.Drawing.Point(formWidth / 5, formHeight / 20);
+            secondButton.Size = new System.Drawing.Size(formWidth / 6, formHeight / 10);
+
+            screenTextBox.Location = new System.Drawing.Point(formWidth / 20, formHeight / 3);
+            screenTextBox.Size = new System.Drawing.Size(formWidth - (formWidth / 10), formHeight / 5);
+
+            myTrackBar.Location = new System.Drawing.Point(formWidth / 20, formHeight - (formHeight / 5));
+            myTrackBar.Size = new System.Drawing.Size(formWidth - (formWidth / 10), 45);  // TrackBar fixed height, dynamic width
         }
 
         // Event handler for the first button click
         private void MyButton_Click(object sender, EventArgs e)
         {
-            screenTextBox.Text = "Button One has been pressed";
+            screenTextBox.Text = "Button has been pressed";
         }
 
         // Event handler for the second button click
         private void SecondButton_Click(object sender, EventArgs e)
         {
-            screenTextBox.Text = "Button Two has been pressed";
+            screenTextBox.Text = "Second button has been pressed";
         }
 
         // Event handler for TrackBar (Slider)
