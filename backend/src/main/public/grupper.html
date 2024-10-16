@@ -105,12 +105,16 @@
             if (!groups[groupName]) {
                 groups[groupName] = [];
                 addGroupHeader(groupName);
+                sendGroupData();
+                console.log(groups);
             }
 
             // Add device to the specified group
             if (!groups[groupName].includes(selectedDevice)) {
                 groups[groupName].push(selectedDevice);
                 addDeviceToGroup(groupName, selectedDevice);
+                sendGroupData;
+                console.log(groups);
             } else {
                 alert(`${selectedDevice} er allerede i gruppen ${groupName}.`);
             }
@@ -154,6 +158,23 @@
                 if (groupHeader) groupHeader.remove();
                 delete groups[groupName];
             }
+        }
+
+        function sendGroupData() {
+            fetch('/api/groups', {
+                method: 'POST', // Bruker POST for å sende data
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(groups) // Konverterer gruppe-data til JSON-format
+            })
+            .then(response => response.json())
+            .then(data => {
+                console.log('Suksess:', data); // Håndter suksess-respons fra serveren
+            })
+            .catch((error) => {
+                console.error('Feil:', error); // Håndter feil ved forespørsel
+            });
         }
 
         // Function to reset all groups
