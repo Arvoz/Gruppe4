@@ -1,11 +1,11 @@
 const express = require('express');
 const path = require('path');
+const deviceController = require("./deviceController");
 
 const app = express();
 const PORT = process.env.PORT || 3000;
 
 let groups = [];
-let esp32 = [];
 
 // Angi mappen for statiske filer (som HTML, CSS og JavaScript)
 app.use(express.static(path.join(__dirname, '../public')));
@@ -43,6 +43,31 @@ app.get('/api/esp32', (req, res) => {
         instructions: 'Send flere data',
     };
     res.status(200).json(responseData);
+});
+
+app.get('/api/devices', (req, res) => {
+    deviceController.getDevices((err, devices) => {
+        if (err) return res.status(500).send('Error reading devices');
+        res.json(devices);
+    });
+});
+
+// POST-endepunkt for å legge til en ny enhet
+app.post('/api/devices', (req, res) => {
+    const newDevice = req.body;
+    deviceController.addDevice(newDevice, (err) => {
+        if (err) return res.status(500).send('Error saving device');
+        res.status(201).send('Device added');
+    });
+});
+
+// DELETE-endepunkt for å slette en enhet
+app.delete('/api/devices/:deviceName', (req, res) => {
+    const deviceName = req.params.deviceName;
+    deviceController.deleteDevice(deviceName, (err) => {
+        if (err) return res.status(500).send('Error deleting device');
+        res.send('Device deleted');
+    });
 });
 
 // Start serveren

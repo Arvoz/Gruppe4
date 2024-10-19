@@ -1,0 +1,144 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "IoTProject.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "IoTProject.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/IoTProject.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/IoTProject.Application.dll": {}
+        }
+      },
+      "IoTProject.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/IoTProject.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/IoTProject.Core.dll": {}
+        }
+      },
+      "IoTProject.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "IoTProject.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/IoTProject.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/IoTProject.Infrastructure.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "IoTProject.Application/1.0.0": {
+      "type": "project",
+      "path": "../IoTProject.Application/IoTProject.Application.csproj",
+      "msbuildProject": "../IoTProject.Application/IoTProject.Application.csproj"
+    },
+    "IoTProject.Core/1.0.0": {
+      "type": "project",
+      "path": "../IoTProject.Core/IoTProject.Core.csproj",
+      "msbuildProject": "../IoTProject.Core/IoTProject.Core.csproj"
+    },
+    "IoTProject.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../IoTProject.Infrastructure/IoTProject.Infrastructure.csproj",
+      "msbuildProject": "../IoTProject.Infrastructure/IoTProject.Infrastructure.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "IoTProject.Application >= 1.0.0",
+      "IoTProject.Core >= 1.0.0",
+      "IoTProject.Infrastructure >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\erlin\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\erlin\\OneDrive\\Dokumenter\\GitHub\\Gruppe4\\IoTProject\\IoTProject.Web\\IoTProject.Web.csproj",
+      "projectName": "IoTProject.Web",
+      "projectPath": "C:\\Users\\erlin\\OneDrive\\Dokumenter\\GitHub\\Gruppe4\\IoTProject\\IoTProject.Web\\IoTProject.Web.csproj",
+      "packagesPath": "C:\\Users\\erlin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\erlin\\OneDrive\\Dokumenter\\GitHub\\Gruppe4\\IoTProject\\IoTProject.Web\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\erlin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "C:\\Users\\erlin\\OneDrive\\Dokumenter\\GitHub\\Gruppe4\\IoTProject\\IoTProject.Application\\IoTProject.Application.csproj": {
+              "projectPath": "C:\\Users\\erlin\\OneDrive\\Dokumenter\\GitHub\\Gruppe4\\IoTProject\\IoTProject.Application\\IoTProject.Application.csproj"
+            },
+            "C:\\Users\\erlin\\OneDrive\\Dokumenter\\GitHub\\Gruppe4\\IoTProject\\IoTProject.Core\\IoTProject.Core.csproj": {
+              "projectPath": "C:\\Users\\erlin\\OneDrive\\Dokumenter\\GitHub\\Gruppe4\\IoTProject\\IoTProject.Core\\IoTProject.Core.csproj"
+            },
+            "C:\\Users\\erlin\\OneDrive\\Dokumenter\\GitHub\\Gruppe4\\IoTProject\\IoTProject.Infrastructure\\IoTProject.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\erlin\\OneDrive\\Dokumenter\\GitHub\\Gruppe4\\IoTProject\\IoTProject.Infrastructure\\IoTProject.Infrastructure.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
