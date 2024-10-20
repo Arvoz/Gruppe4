@@ -1,0 +1,12 @@
+C:\Users\erlin\OneDrive\Dokumenter\GitHub\Gruppe4\IoTProject\IoTProject.Core\bin\Debug\net8.0\IoTProject.Core.deps.json
+C:\Users\erlin\OneDrive\Dokumenter\GitHub\Gruppe4\IoTProject\IoTProject.Core\bin\Debug\net8.0\IoTProject.Core.dll
+C:\Users\erlin\OneDrive\Dokumenter\GitHub\Gruppe4\IoTProject\IoTProject.Core\bin\Debug\net8.0\IoTProject.Core.pdb
+C:\Users\erlin\OneDrive\Dokumenter\GitHub\Gruppe4\IoTProject\IoTProject.Core\obj\Debug\net8.0\IoTProject.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\erlin\OneDrive\Dokumenter\GitHub\Gruppe4\IoTProject\IoTProject.Core\obj\Debug\net8.0\IoTProject.Core.AssemblyInfoInputs.cache
+C:\Users\erlin\OneDrive\Dokumenter\GitHub\Gruppe4\IoTProject\IoTProject.Core\obj\Debug\net8.0\IoTProject.Core.AssemblyInfo.cs
+C:\Users\erlin\OneDrive\Dokumenter\GitHub\Gruppe4\IoTProject\IoTProject.Core\obj\Debug\net8.0\IoTProject.Core.csproj.CoreCompileInputs.cache
+C:\Users\erlin\OneDrive\Dokumenter\GitHub\Gruppe4\IoTProject\IoTProject.Core\obj\Debug\net8.0\IoTProject.Core.sourcelink.json
+C:\Users\erlin\OneDrive\Dokumenter\GitHub\Gruppe4\IoTProject\IoTProject.Core\obj\Debug\net8.0\IoTProject.Core.dll
+C:\Users\erlin\OneDrive\Dokumenter\GitHub\Gruppe4\IoTProject\IoTProject.Core\obj\Debug\net8.0\refint\IoTProject.Core.dll
+C:\Users\erlin\OneDrive\Dokumenter\GitHub\Gruppe4\IoTProject\IoTProject.Core\obj\Debug\net8.0\IoTProject.Core.pdb
+C:\Users\erlin\OneDrive\Dokumenter\GitHub\Gruppe4\IoTProject\IoTProject.Core\obj\Debug\net8.0\ref\IoTProject.Core.dll
