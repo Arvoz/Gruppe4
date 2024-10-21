@@ -1,0 +1,13 @@
+﻿@model IoTProject.Core.Domain.GroupDevice
+
+<h2>@Model.GroupName</h2>
+
+<h4>Devices in this group:</h4>
+<ul>
+    @foreach (var device in Model.Devices)
+    {
+        <li>@device.DeviceName (@device.DeviceId)</li>
+    }
+</ul>
+
+<a asp-action="Index" class="btn btn-secondary">Back to Group List</a>

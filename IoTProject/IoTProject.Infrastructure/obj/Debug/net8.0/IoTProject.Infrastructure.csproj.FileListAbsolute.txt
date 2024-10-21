@@ -1,0 +1,16 @@
+C:\Users\erlin\OneDrive\Dokumenter\GitHub\Gruppe4\IoTProject\IoTProject.Infrastructure\bin\Debug\net8.0\IoTProject.Infrastructure.deps.json
+C:\Users\erlin\OneDrive\Dokumenter\GitHub\Gruppe4\IoTProject\IoTProject.Infrastructure\bin\Debug\net8.0\IoTProject.Infrastructure.dll
+C:\Users\erlin\OneDrive\Dokumenter\GitHub\Gruppe4\IoTProject\IoTProject.Infrastructure\bin\Debug\net8.0\IoTProject.Infrastructure.pdb
+C:\Users\erlin\OneDrive\Dokumenter\GitHub\Gruppe4\IoTProject\IoTProject.Infrastructure\bin\Debug\net8.0\IoTProject.Core.dll
+C:\Users\erlin\OneDrive\Dokumenter\GitHub\Gruppe4\IoTProject\IoTProject.Infrastructure\bin\Debug\net8.0\IoTProject.Core.pdb
+C:\Users\erlin\OneDrive\Dokumenter\GitHub\Gruppe4\IoTProject\IoTProject.Infrastructure\obj\Debug\net8.0\IoTProject.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\erlin\OneDrive\Dokumenter\GitHub\Gruppe4\IoTProject\IoTProject.Infrastructure\obj\Debug\net8.0\IoTProject.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\erlin\OneDrive\Dokumenter\GitHub\Gruppe4\IoTProject\IoTProject.Infrastructure\obj\Debug\net8.0\IoTProject.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\erlin\OneDrive\Dokumenter\GitHub\Gruppe4\IoTProject\IoTProject.Infrastructure\obj\Debug\net8.0\IoTProject.Infrastructure.AssemblyInfo.cs
+C:\Users\erlin\OneDrive\Dokumenter\GitHub\Gruppe4\IoTProject\IoTProject.Infrastructure\obj\Debug\net8.0\IoTProject.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\erlin\OneDrive\Dokumenter\GitHub\Gruppe4\IoTProject\IoTProject.Infrastructure\obj\Debug\net8.0\IoTProject.Infrastructure.sourcelink.json
+C:\Users\erlin\OneDrive\Dokumenter\GitHub\Gruppe4\IoTProject\IoTProject.Infrastructure\obj\Debug\net8.0\IoTProje.24798F14.Up2Date
+C:\Users\erlin\OneDrive\Dokumenter\GitHub\Gruppe4\IoTProject\IoTProject.Infrastructure\obj\Debug\net8.0\IoTProject.Infrastructure.dll
+C:\Users\erlin\OneDrive\Dokumenter\GitHub\Gruppe4\IoTProject\IoTProject.Infrastructure\obj\Debug\net8.0\refint\IoTProject.Infrastructure.dll
+C:\Users\erlin\OneDrive\Dokumenter\GitHub\Gruppe4\IoTProject\IoTProject.Infrastructure\obj\Debug\net8.0\IoTProject.Infrastructure.pdb
+C:\Users\erlin\OneDrive\Dokumenter\GitHub\Gruppe4\IoTProject\IoTProject.Infrastructure\obj\Debug\net8.0\ref\IoTProject.Infrastructure.dll

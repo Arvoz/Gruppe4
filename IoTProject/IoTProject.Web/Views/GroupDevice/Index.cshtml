@@ -1,0 +1,28 @@
+﻿@model IEnumerable<IoTProject.Core.Domain.GroupDevice>
+
+<h2>Group Devices</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Group Name</th>
+            <th>Devices Count</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var group in Model)
+        {
+            <tr>
+                <td>@group.GroupName</td>
+                <td>@group.Devices.Count</td>
+                <td>
+                    <a asp-action="Details" asp-route-groupName="@group.GroupName" class="btn btn-info">View</a>
+                    <a asp-action="Delete" asp-route-groupName="@group.GroupName" class="btn btn-danger">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a asp-action="CreateOrUpdate" class="btn btn-primary">Create New Group</a>

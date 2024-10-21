@@ -1,0 +1,16 @@
+C:\Users\erlin\OneDrive\Dokumenter\GitHub\Gruppe4\IoTProject\IoTProject.Application\obj\Debug\net8.0\IoTProject.Application.csproj.AssemblyReference.cache
+C:\Users\erlin\OneDrive\Dokumenter\GitHub\Gruppe4\IoTProject\IoTProject.Application\obj\Debug\net8.0\IoTProject.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\erlin\OneDrive\Dokumenter\GitHub\Gruppe4\IoTProject\IoTProject.Application\obj\Debug\net8.0\IoTProject.Application.AssemblyInfoInputs.cache
+C:\Users\erlin\OneDrive\Dokumenter\GitHub\Gruppe4\IoTProject\IoTProject.Application\obj\Debug\net8.0\IoTProject.Application.AssemblyInfo.cs
+C:\Users\erlin\OneDrive\Dokumenter\GitHub\Gruppe4\IoTProject\IoTProject.Application\obj\Debug\net8.0\IoTProject.Application.csproj.CoreCompileInputs.cache
+C:\Users\erlin\OneDrive\Dokumenter\GitHub\Gruppe4\IoTProject\IoTProject.Application\obj\Debug\net8.0\IoTProject.Application.sourcelink.json
+C:\Users\erlin\OneDrive\Dokumenter\GitHub\Gruppe4\IoTProject\IoTProject.Application\bin\Debug\net8.0\IoTProject.Application.deps.json
+C:\Users\erlin\OneDrive\Dokumenter\GitHub\Gruppe4\IoTProject\IoTProject.Application\bin\Debug\net8.0\IoTProject.Application.dll
+C:\Users\erlin\OneDrive\Dokumenter\GitHub\Gruppe4\IoTProject\IoTProject.Application\bin\Debug\net8.0\IoTProject.Application.pdb
+C:\Users\erlin\OneDrive\Dokumenter\GitHub\Gruppe4\IoTProject\IoTProject.Application\bin\Debug\net8.0\IoTProject.Core.dll
+C:\Users\erlin\OneDrive\Dokumenter\GitHub\Gruppe4\IoTProject\IoTProject.Application\bin\Debug\net8.0\IoTProject.Core.pdb
+C:\Users\erlin\OneDrive\Dokumenter\GitHub\Gruppe4\IoTProject\IoTProject.Application\obj\Debug\net8.0\IoTProje.E0C0EBA9.Up2Date
+C:\Users\erlin\OneDrive\Dokumenter\GitHub\Gruppe4\IoTProject\IoTProject.Application\obj\Debug\net8.0\IoTProject.Application.dll
+C:\Users\erlin\OneDrive\Dokumenter\GitHub\Gruppe4\IoTProject\IoTProject.Application\obj\Debug\net8.0\refint\IoTProject.Application.dll
+C:\Users\erlin\OneDrive\Dokumenter\GitHub\Gruppe4\IoTProject\IoTProject.Application\obj\Debug\net8.0\IoTProject.Application.pdb
+C:\Users\erlin\OneDrive\Dokumenter\GitHub\Gruppe4\IoTProject\IoTProject.Application\obj\Debug\net8.0\ref\IoTProject.Application.dll

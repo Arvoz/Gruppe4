@@ -8,15 +8,17 @@ namespace IoTProject.Core.Domain
 {
     public class Device
     {
-        private string Name { get; set; }
-        private string Type { get; set; }
-        private bool Status { get; set; }
+        public string DeviceId { get; set; }
+        public string DeviceName { get; set; }
+        public string Type { get; set; }
+        public bool Status { get; set; }
 
         public Device() { }
 
-        public Device(string name, string type)
+        public Device(string id, string name, string type)
         {
-            this.Name = name;
+            this.DeviceId = id;
+            this.DeviceName = name;
             this.Type = type;
             this.Status = false;
         }

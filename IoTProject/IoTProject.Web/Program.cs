@@ -1,7 +1,14 @@
+using IoTProject.Application.Services;
+using IoTProject.Core.Ports;
+using IoTProject.Infrastructure.FileStorage;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddScoped<IGroupDeviceRepository, FileStorageGroupDeviceRepository>();
+builder.Services.AddScoped<IGroupDeviceService, GroupDeviceService>();
 
 var app = builder.Build();
 

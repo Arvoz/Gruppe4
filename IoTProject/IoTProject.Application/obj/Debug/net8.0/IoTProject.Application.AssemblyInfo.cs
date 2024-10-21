@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("IoTProject.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+27d4b25afb415b3a3263926cd3f229d43bff6f2b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5019daf8757947f60e1efe9cbeaa2e791bcd9853")]
 [assembly: System.Reflection.AssemblyProductAttribute("IoTProject.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("IoTProject.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

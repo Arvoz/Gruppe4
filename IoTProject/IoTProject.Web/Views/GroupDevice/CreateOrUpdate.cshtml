@@ -1,0 +1,16 @@
+﻿@model IoTProject.Core.Domain.GroupDevice
+
+<h2>@(Model.GroupName == null ? "Create New Group" : "Edit Group")</h2>
+
+<form asp-action="CreateOrUpdate" method="post">
+    <div class="form-group">
+        <label for="GroupName">Group Name</label>
+        <input type="text" class="form-control" id="GroupName" name="GroupName" value="@Model.GroupName" required />
+    </div>
+
+    <!-- Her kan du legge til flere felt for å legge til enheter -->
+
+    <button type="submit" class="btn btn-success">Save</button>
+</form>
+
+<a asp-action="Index" class="btn btn-secondary">Back to Group List</a>
