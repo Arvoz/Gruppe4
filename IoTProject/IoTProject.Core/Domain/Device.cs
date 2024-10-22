@@ -8,24 +8,37 @@ namespace IoTProject.Core.Domain
 {
     public class Device
     {
-        public string DeviceId { get; set; }
         public string DeviceName { get; set; }
         public string Type { get; set; }
         public bool Status { get; set; }
 
-        public Device() { }
-
-        public Device(string id, string name, string type)
+        public Device(string name, string type)
         {
-            this.DeviceId = id;
             this.DeviceName = name;
             this.Type = type;
             this.Status = false;
         }
 
-        public void UpdateStatus(bool status)
-        {   
+        public Device(string name, string type, bool status)
+        {
+            this.DeviceName = name;
+            this.Type = type;
             this.Status = status;
         }
+
+        public Device()
+        {
+            
+        }
+
+        public void UpdateStatus()
+        {
+            if (Status)
+            {
+                Status = false;
+            }
+            Status = true;
+        }
+
     }
 }

@@ -18,12 +18,16 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\erlin\OneDrive\Dokumenter\GitHub\Gruppe4\IoTProject\IoTProject.Web
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/erlin/OneDrive/Dokumenter/GitHub/Gruppe4/IoTProject/IoTProject.Web/Views/GroupDevice/CreateOrUpdate.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3JvdXBEZXZpY2VcQ3JlYXRlT3JVcGRhdGUuY3NodG1s
+[C:/Users/erlin/OneDrive/Dokumenter/GitHub/Gruppe4/IoTProject/IoTProject.Web/Views/Device/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV2aWNlXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/erlin/OneDrive/Dokumenter/GitHub/Gruppe4/IoTProject/IoTProject.Web/Views/GroupDevice/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3JvdXBEZXZpY2VcRGV0YWlscy5jc2h0bWw=
+[C:/Users/erlin/OneDrive/Dokumenter/GitHub/Gruppe4/IoTProject/IoTProject.Web/Views/Device/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV2aWNlXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/erlin/OneDrive/Dokumenter/GitHub/Gruppe4/IoTProject/IoTProject.Web/Views/GroupDevice/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3JvdXBEZXZpY2VcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/erlin/OneDrive/Dokumenter/GitHub/Gruppe4/IoTProject/IoTProject.Web/Views/GroupDevice/Index.cshtml]

@@ -1,0 +1,10 @@
+{
+  "GroupName": "Stue",
+  "Devices": [
+    {
+      "DeviceName": "Philips Hue",
+      "Type": "Lys2",
+      "Status": false
+    }
+  ]
+}

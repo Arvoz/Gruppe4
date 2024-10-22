@@ -36,3 +36,4 @@ C:\Users\erlin\OneDrive\Dokumenter\GitHub\Gruppe4\IoTProject\IoTProject.Web\obj\
 C:\Users\erlin\OneDrive\Dokumenter\GitHub\Gruppe4\IoTProject\IoTProject.Web\obj\Debug\net8.0\IoTProject.Web.pdb
 C:\Users\erlin\OneDrive\Dokumenter\GitHub\Gruppe4\IoTProject\IoTProject.Web\obj\Debug\net8.0\IoTProject.Web.genruntimeconfig.cache
 C:\Users\erlin\OneDrive\Dokumenter\GitHub\Gruppe4\IoTProject\IoTProject.Web\obj\Debug\net8.0\ref\IoTProject.Web.dll
+C:\Users\erlin\OneDrive\Dokumenter\GitHub\Gruppe4\IoTProject\IoTProject.Web\bin\Debug\net8.0\device.json

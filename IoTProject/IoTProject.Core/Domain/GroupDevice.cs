@@ -11,33 +11,25 @@ namespace IoTProject.Core.Domain
         public string GroupName { get; set; }
         public List<Device> Devices { get; set; }
 
-        public GroupDevice(string groupName, Device device)
+        public GroupDevice(string groupName)
         {
-            this.GroupName = groupName;
-            this.Devices = new List<Device>();
-        }
-
-        public void AddDevice(Device device)
-        {
-            if (this.Devices.Contains(device))
-            {
-                this.Devices.Add(device);
-            }
-            throw new ArgumentNullException(nameof(device));
+            GroupName = groupName;
+            Devices = new List<Device>();
         }
 
         public GroupDevice()
         {
-            
+            Devices = new List<Device>();
+        }
+
+        public void AddDevice(Device device)
+        {
+            Devices.Add(device);
         }
 
         public void RemoveDevice(Device device)
         {
-            if (!this.Devices.Contains(device))
-            {
-                throw new ArgumentNullException(nameof(device));
-            }
-            this.Devices.Remove(device);
+            Devices.Remove(device);
         }
     }
 }

@@ -6,8 +6,7 @@
     <thead>
         <tr>
             <th>Group Name</th>
-            <th>Devices Count</th>
-            <th>Actions</th>
+            <th>Devices</th>
         </tr>
     </thead>
     <tbody>
@@ -15,14 +14,15 @@
         {
             <tr>
                 <td>@group.GroupName</td>
-                <td>@group.Devices.Count</td>
                 <td>
-                    <a asp-action="Details" asp-route-groupName="@group.GroupName" class="btn btn-info">View</a>
-                    <a asp-action="Delete" asp-route-groupName="@group.GroupName" class="btn btn-danger">Delete</a>
+                    <ul>
+                        @foreach (var device in group.Devices)
+                        {
+                            <li>@device.DeviceName - @device.Type (@(device.Status ? "Active" : "Inactive"))</li>
+                        }
+                    </ul>
                 </td>
             </tr>
         }
     </tbody>
 </table>
-
-<a asp-action="CreateOrUpdate" class="btn btn-primary">Create New Group</a>

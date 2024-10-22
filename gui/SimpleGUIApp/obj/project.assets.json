@@ -392,12 +392,15 @@
       "outputPath": "C:\\Users\\erlin\\OneDrive\\Dokumenter\\GitHub\\Gruppe4\\gui\\SimpleGUIApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\erlin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\erlin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0-windows"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

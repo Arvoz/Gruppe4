@@ -9,6 +9,8 @@ builder.Services.AddControllersWithViews();
 
 builder.Services.AddScoped<IGroupDeviceRepository, FileStorageGroupDeviceRepository>();
 builder.Services.AddScoped<IGroupDeviceService, GroupDeviceService>();
+builder.Services.AddScoped<IDeviceRepository, FileStorageDeviceRepository>();
+builder.Services.AddScoped<DeviceService>();
 
 var app = builder.Build();
 
