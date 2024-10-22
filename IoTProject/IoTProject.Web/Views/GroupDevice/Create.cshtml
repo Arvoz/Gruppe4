@@ -4,28 +4,19 @@
 
 <form asp-action="Create" method="post">
     <div class="form-group">
-        <label asp-for="GroupName"></label>
+        <label asp-for="GroupName">Group Name</label>
         <input asp-for="GroupName" class="form-control" />
         <span asp-validation-for="GroupName" class="text-danger"></span>
     </div>
 
-    <h3>Add Device</h3>
-    <div class="form-group">
-        <label asp-for="Devices[0].DeviceName">Device Name</label>
-        <input asp-for="Devices[0].DeviceName" class="form-control" />
-        <span asp-validation-for="Devices[0].DeviceName" class="text-danger"></span>
-    </div>
-    <div class="form-group">
-        <label asp-for="Devices[0].Type">Device Type</label>
-        <input asp-for="Devices[0].Type" class="form-control" />
-        <span asp-validation-for="Devices[0].Type" class="text-danger"></span>
-    </div>
-    <div class="form-group">
-        <label asp-for="Devices[0].Status">Device Status</label>
-        <input asp-for="Devices[0].Status" class="form-control" />
-        <span asp-validation-for="Devices[0].Status" class="text-danger"></span>
-    </div>
-
+    <h3>Select Devices to Add to Group</h3>
+    @foreach (var device in Model.Devices)
+    {
+        <div class="form-group">
+            <input type="checkbox" name="SelectedDeviceIds" value="@device.DeviceName" /> @device.Type (@device.Status)
+        </div>
+    }
+                                                                    
     <button type="submit" class="btn btn-primary">Create Group</button>
 </form>
 

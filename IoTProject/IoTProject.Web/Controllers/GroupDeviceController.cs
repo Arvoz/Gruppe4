@@ -9,10 +9,12 @@ namespace IoTProject.Web.Controllers
     {
 
         private readonly IGroupDeviceService _groupDeviceService;
+        private readonly IDeviceRepository _deviceRepository;
 
-        public GroupDeviceController(IGroupDeviceService groupDeviceService)
+        public GroupDeviceController(IGroupDeviceService groupDeviceService, IDeviceRepository deviceRepository)
         {
             _groupDeviceService = groupDeviceService;
+            _deviceRepository = deviceRepository;
         }
 
         public IActionResult Index()
@@ -31,12 +33,20 @@ namespace IoTProject.Web.Controllers
         {
             if (ModelState.IsValid)
             {
+                foreach (var device in groupDevice.Devices)
+                {
+                    var devices = _deviceRepository.GetDeviceByName(device.DeviceName);
+                    if (devices != null)
+                    {
+                        groupDevice.Devices.Add(devices);
+                    }
+                }
                 _groupDeviceService.CreateOrUpdateGroup(groupDevice);
+
                 return RedirectToAction("Index");
             }
             return View(groupDevice);
         }
-
-
+        
     }
 }
