@@ -3,68 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\erlin\\OneDrive\\Dokumenter\\GitHub\\Gruppe4\\IoTProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F654F160-4570-402A-BD15-9D08EDDB464B}|IoTProject.Web\\IoTProject.Web.csproj|c:\\users\\erlin\\onedrive\\dokumenter\\github\\gruppe4\\iotproject\\iotproject.web\\views\\groupdevice\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F654F160-4570-402A-BD15-9D08EDDB464B}|IoTProject.Web\\IoTProject.Web.csproj|solutionrelative:iotproject.web\\views\\groupdevice\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F654F160-4570-402A-BD15-9D08EDDB464B}|IoTProject.Web\\IoTProject.Web.csproj|c:\\users\\erlin\\onedrive\\dokumenter\\github\\gruppe4\\iotproject\\iotproject.web\\views\\device\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F654F160-4570-402A-BD15-9D08EDDB464B}|IoTProject.Web\\IoTProject.Web.csproj|solutionrelative:iotproject.web\\views\\device\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F654F160-4570-402A-BD15-9D08EDDB464B}|IoTProject.Web\\IoTProject.Web.csproj|c:\\users\\erlin\\onedrive\\dokumenter\\github\\gruppe4\\iotproject\\iotproject.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F654F160-4570-402A-BD15-9D08EDDB464B}|IoTProject.Web\\IoTProject.Web.csproj|solutionrelative:iotproject.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F654F160-4570-402A-BD15-9D08EDDB464B}|IoTProject.Web\\IoTProject.Web.csproj|c:\\users\\erlin\\onedrive\\dokumenter\\github\\gruppe4\\iotproject\\iotproject.web\\views\\groupdevice\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{F654F160-4570-402A-BD15-9D08EDDB464B}|IoTProject.Web\\IoTProject.Web.csproj|solutionrelative:iotproject.web\\views\\groupdevice\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E09DBADF-30BE-408A-B2EC-3078C16AF67B}|IoTProject.Core\\IoTProject.Core.csproj|c:\\users\\erlin\\onedrive\\dokumenter\\github\\gruppe4\\iotproject\\iotproject.core\\domain\\device.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E09DBADF-30BE-408A-B2EC-3078C16AF67B}|IoTProject.Core\\IoTProject.Core.csproj|solutionrelative:iotproject.core\\domain\\device.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E09DBADF-30BE-408A-B2EC-3078C16AF67B}|IoTProject.Core\\IoTProject.Core.csproj|c:\\users\\erlin\\onedrive\\dokumenter\\github\\gruppe4\\iotproject\\iotproject.core\\domain\\groupdevice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E09DBADF-30BE-408A-B2EC-3078C16AF67B}|IoTProject.Core\\IoTProject.Core.csproj|solutionrelative:iotproject.core\\domain\\groupdevice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9A1300FE-283A-4413-9DF3-2E571FC8FC62}|IoTProject.Application\\IoTProject.Application.csproj|c:\\users\\erlin\\onedrive\\dokumenter\\github\\gruppe4\\iotproject\\iotproject.application\\services\\deviceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A1300FE-283A-4413-9DF3-2E571FC8FC62}|IoTProject.Application\\IoTProject.Application.csproj|solutionrelative:iotproject.application\\services\\deviceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9A1300FE-283A-4413-9DF3-2E571FC8FC62}|IoTProject.Application\\IoTProject.Application.csproj|c:\\users\\erlin\\onedrive\\dokumenter\\github\\gruppe4\\iotproject\\iotproject.application\\services\\groupdeviceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A1300FE-283A-4413-9DF3-2E571FC8FC62}|IoTProject.Application\\IoTProject.Application.csproj|solutionrelative:iotproject.application\\services\\groupdeviceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F654F160-4570-402A-BD15-9D08EDDB464B}|IoTProject.Web\\IoTProject.Web.csproj|c:\\users\\erlin\\onedrive\\dokumenter\\github\\gruppe4\\iotproject\\iotproject.web\\views\\device\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F654F160-4570-402A-BD15-9D08EDDB464B}|IoTProject.Web\\IoTProject.Web.csproj|solutionrelative:iotproject.web\\views\\device\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F654F160-4570-402A-BD15-9D08EDDB464B}|IoTProject.Web\\IoTProject.Web.csproj|c:\\users\\erlin\\onedrive\\dokumenter\\github\\gruppe4\\iotproject\\iotproject.web\\controllers\\groupdevicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F654F160-4570-402A-BD15-9D08EDDB464B}|IoTProject.Web\\IoTProject.Web.csproj|solutionrelative:iotproject.web\\controllers\\groupdevicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E990F363-343F-4E39-95DE-29022C0A421C}|IoTProject.Infrastructure\\IoTProject.Infrastructure.csproj|c:\\users\\erlin\\onedrive\\dokumenter\\github\\gruppe4\\iotproject\\iotproject.infrastructure\\filestorage\\filestoragegroupdevicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E990F363-343F-4E39-95DE-29022C0A421C}|IoTProject.Infrastructure\\IoTProject.Infrastructure.csproj|solutionrelative:iotproject.infrastructure\\filestorage\\filestoragegroupdevicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F654F160-4570-402A-BD15-9D08EDDB464B}|IoTProject.Web\\IoTProject.Web.csproj|c:\\users\\erlin\\onedrive\\dokumenter\\github\\gruppe4\\iotproject\\iotproject.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F654F160-4570-402A-BD15-9D08EDDB464B}|IoTProject.Web\\IoTProject.Web.csproj|solutionrelative:iotproject.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F654F160-4570-402A-BD15-9D08EDDB464B}|IoTProject.Web\\IoTProject.Web.csproj|c:\\users\\erlin\\onedrive\\dokumenter\\github\\gruppe4\\iotproject\\iotproject.web\\controllers\\devicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F654F160-4570-402A-BD15-9D08EDDB464B}|IoTProject.Web\\IoTProject.Web.csproj|solutionrelative:iotproject.web\\controllers\\devicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E09DBADF-30BE-408A-B2EC-3078C16AF67B}|IoTProject.Core\\IoTProject.Core.csproj|c:\\users\\erlin\\onedrive\\dokumenter\\github\\gruppe4\\iotproject\\iotproject.core\\domain\\esp32.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E09DBADF-30BE-408A-B2EC-3078C16AF67B}|IoTProject.Core\\IoTProject.Core.csproj|solutionrelative:iotproject.core\\domain\\esp32.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E990F363-343F-4E39-95DE-29022C0A421C}|IoTProject.Infrastructure\\IoTProject.Infrastructure.csproj|c:\\users\\erlin\\onedrive\\dokumenter\\github\\gruppe4\\iotproject\\iotproject.infrastructure\\filestorage\\filestoragedevicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E990F363-343F-4E39-95DE-29022C0A421C}|IoTProject.Infrastructure\\IoTProject.Infrastructure.csproj|solutionrelative:iotproject.infrastructure\\filestorage\\filestoragedevicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E09DBADF-30BE-408A-B2EC-3078C16AF67B}|IoTProject.Core\\IoTProject.Core.csproj|c:\\users\\erlin\\onedrive\\dokumenter\\github\\gruppe4\\iotproject\\iotproject.core\\ports\\idevicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E09DBADF-30BE-408A-B2EC-3078C16AF67B}|IoTProject.Core\\IoTProject.Core.csproj|solutionrelative:iotproject.core\\ports\\idevicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9A1300FE-283A-4413-9DF3-2E571FC8FC62}|IoTProject.Application\\IoTProject.Application.csproj|c:\\users\\erlin\\onedrive\\dokumenter\\github\\gruppe4\\iotproject\\iotproject.application\\services\\groupdeviceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A1300FE-283A-4413-9DF3-2E571FC8FC62}|IoTProject.Application\\IoTProject.Application.csproj|solutionrelative:iotproject.application\\services\\groupdeviceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E09DBADF-30BE-408A-B2EC-3078C16AF67B}|IoTProject.Core\\IoTProject.Core.csproj|c:\\users\\erlin\\onedrive\\dokumenter\\github\\gruppe4\\iotproject\\iotproject.core\\ports\\igroupdeviceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -73,6 +25,54 @@
     {
       "AbsoluteMoniker": "D:0:0:{E09DBADF-30BE-408A-B2EC-3078C16AF67B}|IoTProject.Core\\IoTProject.Core.csproj|c:\\users\\erlin\\onedrive\\dokumenter\\github\\gruppe4\\iotproject\\iotproject.core\\ports\\igroupdevicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E09DBADF-30BE-408A-B2EC-3078C16AF67B}|IoTProject.Core\\IoTProject.Core.csproj|solutionrelative:iotproject.core\\ports\\igroupdevicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E990F363-343F-4E39-95DE-29022C0A421C}|IoTProject.Infrastructure\\IoTProject.Infrastructure.csproj|c:\\users\\erlin\\onedrive\\dokumenter\\github\\gruppe4\\iotproject\\iotproject.infrastructure\\filestorage\\filestoragegroupdevicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E990F363-343F-4E39-95DE-29022C0A421C}|IoTProject.Infrastructure\\IoTProject.Infrastructure.csproj|solutionrelative:iotproject.infrastructure\\filestorage\\filestoragegroupdevicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E09DBADF-30BE-408A-B2EC-3078C16AF67B}|IoTProject.Core\\IoTProject.Core.csproj|c:\\users\\erlin\\onedrive\\dokumenter\\github\\gruppe4\\iotproject\\iotproject.core\\domain\\groupdevice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E09DBADF-30BE-408A-B2EC-3078C16AF67B}|IoTProject.Core\\IoTProject.Core.csproj|solutionrelative:iotproject.core\\domain\\groupdevice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E09DBADF-30BE-408A-B2EC-3078C16AF67B}|IoTProject.Core\\IoTProject.Core.csproj|c:\\users\\erlin\\onedrive\\dokumenter\\github\\gruppe4\\iotproject\\iotproject.core\\domain\\esp32.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E09DBADF-30BE-408A-B2EC-3078C16AF67B}|IoTProject.Core\\IoTProject.Core.csproj|solutionrelative:iotproject.core\\domain\\esp32.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E09DBADF-30BE-408A-B2EC-3078C16AF67B}|IoTProject.Core\\IoTProject.Core.csproj|c:\\users\\erlin\\onedrive\\dokumenter\\github\\gruppe4\\iotproject\\iotproject.core\\domain\\device.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E09DBADF-30BE-408A-B2EC-3078C16AF67B}|IoTProject.Core\\IoTProject.Core.csproj|solutionrelative:iotproject.core\\domain\\device.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F654F160-4570-402A-BD15-9D08EDDB464B}|IoTProject.Web\\IoTProject.Web.csproj|c:\\users\\erlin\\onedrive\\dokumenter\\github\\gruppe4\\iotproject\\iotproject.web\\views\\device\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F654F160-4570-402A-BD15-9D08EDDB464B}|IoTProject.Web\\IoTProject.Web.csproj|solutionrelative:iotproject.web\\views\\device\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F654F160-4570-402A-BD15-9D08EDDB464B}|IoTProject.Web\\IoTProject.Web.csproj|c:\\users\\erlin\\onedrive\\dokumenter\\github\\gruppe4\\iotproject\\iotproject.web\\controllers\\devicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F654F160-4570-402A-BD15-9D08EDDB464B}|IoTProject.Web\\IoTProject.Web.csproj|solutionrelative:iotproject.web\\controllers\\devicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E990F363-343F-4E39-95DE-29022C0A421C}|IoTProject.Infrastructure\\IoTProject.Infrastructure.csproj|c:\\users\\erlin\\onedrive\\dokumenter\\github\\gruppe4\\iotproject\\iotproject.infrastructure\\filestorage\\filestoragedevicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E990F363-343F-4E39-95DE-29022C0A421C}|IoTProject.Infrastructure\\IoTProject.Infrastructure.csproj|solutionrelative:iotproject.infrastructure\\filestorage\\filestoragedevicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F654F160-4570-402A-BD15-9D08EDDB464B}|IoTProject.Web\\IoTProject.Web.csproj|c:\\users\\erlin\\onedrive\\dokumenter\\github\\gruppe4\\iotproject\\iotproject.web\\views\\device\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F654F160-4570-402A-BD15-9D08EDDB464B}|IoTProject.Web\\IoTProject.Web.csproj|solutionrelative:iotproject.web\\views\\device\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A1300FE-283A-4413-9DF3-2E571FC8FC62}|IoTProject.Application\\IoTProject.Application.csproj|c:\\users\\erlin\\onedrive\\dokumenter\\github\\gruppe4\\iotproject\\iotproject.application\\services\\deviceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A1300FE-283A-4413-9DF3-2E571FC8FC62}|IoTProject.Application\\IoTProject.Application.csproj|solutionrelative:iotproject.application\\services\\deviceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E09DBADF-30BE-408A-B2EC-3078C16AF67B}|IoTProject.Core\\IoTProject.Core.csproj|c:\\users\\erlin\\onedrive\\dokumenter\\github\\gruppe4\\iotproject\\iotproject.core\\ports\\idevicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E09DBADF-30BE-408A-B2EC-3078C16AF67B}|IoTProject.Core\\IoTProject.Core.csproj|solutionrelative:iotproject.core\\ports\\idevicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F654F160-4570-402A-BD15-9D08EDDB464B}|IoTProject.Web\\IoTProject.Web.csproj|c:\\users\\erlin\\onedrive\\dokumenter\\github\\gruppe4\\iotproject\\iotproject.web\\views\\groupdevice\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F654F160-4570-402A-BD15-9D08EDDB464B}|IoTProject.Web\\IoTProject.Web.csproj|solutionrelative:iotproject.web\\views\\groupdevice\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F654F160-4570-402A-BD15-9D08EDDB464B}|IoTProject.Web\\IoTProject.Web.csproj|c:\\users\\erlin\\onedrive\\dokumenter\\github\\gruppe4\\iotproject\\iotproject.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F654F160-4570-402A-BD15-9D08EDDB464B}|IoTProject.Web\\IoTProject.Web.csproj|solutionrelative:iotproject.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E990F363-343F-4E39-95DE-29022C0A421C}|IoTProject.Infrastructure\\IoTProject.Infrastructure.csproj|c:\\users\\erlin\\onedrive\\dokumenter\\github\\gruppe4\\iotproject\\iotproject.infrastructure\\filestorage\\filestoragebackuprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -122,37 +122,115 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 13,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\erlin\\OneDrive\\Dokumenter\\GitHub\\Gruppe4\\IoTProject\\IoTProject.Web\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "IoTProject.Web\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\erlin\\OneDrive\\Dokumenter\\GitHub\\Gruppe4\\IoTProject\\IoTProject.Web\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "IoTProject.Web\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-22T20:56:50.72Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\erlin\\OneDrive\\Dokumenter\\GitHub\\Gruppe4\\IoTProject\\IoTProject.Web\\Views\\Device\\Create.cshtml",
               "RelativeDocumentMoniker": "IoTProject.Web\\Views\\Device\\Create.cshtml",
               "ToolTip": "C:\\Users\\erlin\\OneDrive\\Dokumenter\\GitHub\\Gruppe4\\IoTProject\\IoTProject.Web\\Views\\Device\\Create.cshtml",
               "RelativeToolTip": "IoTProject.Web\\Views\\Device\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAGAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-10-22T18:39:10.713Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\erlin\\OneDrive\\Dokumenter\\GitHub\\Gruppe4\\IoTProject\\IoTProject.Web\\Program.cs",
+              "RelativeDocumentMoniker": "IoTProject.Web\\Program.cs",
+              "ToolTip": "C:\\Users\\erlin\\OneDrive\\Dokumenter\\GitHub\\Gruppe4\\IoTProject\\IoTProject.Web\\Program.cs",
+              "RelativeToolTip": "IoTProject.Web\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T17:00:31.419Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Esp32.cs",
+              "DocumentMoniker": "C:\\Users\\erlin\\OneDrive\\Dokumenter\\GitHub\\Gruppe4\\IoTProject\\IoTProject.Core\\Domain\\Esp32.cs",
+              "RelativeDocumentMoniker": "IoTProject.Core\\Domain\\Esp32.cs",
+              "ToolTip": "C:\\Users\\erlin\\OneDrive\\Dokumenter\\GitHub\\Gruppe4\\IoTProject\\IoTProject.Core\\Domain\\Esp32.cs",
+              "RelativeToolTip": "IoTProject.Core\\Domain\\Esp32.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T15:35:00.239Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\erlin\\OneDrive\\Dokumenter\\GitHub\\Gruppe4\\IoTProject\\IoTProject.Web\\Views\\Device\\Index.cshtml",
+              "RelativeDocumentMoniker": "IoTProject.Web\\Views\\Device\\Index.cshtml",
+              "ToolTip": "C:\\Users\\erlin\\OneDrive\\Dokumenter\\GitHub\\Gruppe4\\IoTProject\\IoTProject.Web\\Views\\Device\\Index.cshtml",
+              "RelativeToolTip": "IoTProject.Web\\Views\\Device\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-22T18:19:54.174Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DeviceController.cs",
+              "DocumentMoniker": "C:\\Users\\erlin\\OneDrive\\Dokumenter\\GitHub\\Gruppe4\\IoTProject\\IoTProject.Web\\Controllers\\DeviceController.cs",
+              "RelativeDocumentMoniker": "IoTProject.Web\\Controllers\\DeviceController.cs",
+              "ToolTip": "C:\\Users\\erlin\\OneDrive\\Dokumenter\\GitHub\\Gruppe4\\IoTProject\\IoTProject.Web\\Controllers\\DeviceController.cs",
+              "RelativeToolTip": "IoTProject.Web\\Controllers\\DeviceController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T18:17:29.891Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "FileStorageDeviceRepository.cs",
+              "DocumentMoniker": "C:\\Users\\erlin\\OneDrive\\Dokumenter\\GitHub\\Gruppe4\\IoTProject\\IoTProject.Infrastructure\\FileStorage\\FileStorageDeviceRepository.cs",
+              "RelativeDocumentMoniker": "IoTProject.Infrastructure\\FileStorage\\FileStorageDeviceRepository.cs",
+              "ToolTip": "C:\\Users\\erlin\\OneDrive\\Dokumenter\\GitHub\\Gruppe4\\IoTProject\\IoTProject.Infrastructure\\FileStorage\\FileStorageDeviceRepository.cs",
+              "RelativeToolTip": "IoTProject.Infrastructure\\FileStorage\\FileStorageDeviceRepository.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAD8AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T17:41:57.439Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Device.cs",
+              "DocumentMoniker": "C:\\Users\\erlin\\OneDrive\\Dokumenter\\GitHub\\Gruppe4\\IoTProject\\IoTProject.Core\\Domain\\Device.cs",
+              "RelativeDocumentMoniker": "IoTProject.Core\\Domain\\Device.cs",
+              "ToolTip": "C:\\Users\\erlin\\OneDrive\\Dokumenter\\GitHub\\Gruppe4\\IoTProject\\IoTProject.Core\\Domain\\Device.cs",
+              "RelativeToolTip": "IoTProject.Core\\Domain\\Device.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAowBwAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T23:45:45.005Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GroupDevice.cs",
+              "DocumentMoniker": "C:\\Users\\erlin\\OneDrive\\Dokumenter\\GitHub\\Gruppe4\\IoTProject\\IoTProject.Core\\Domain\\GroupDevice.cs",
+              "RelativeDocumentMoniker": "IoTProject.Core\\Domain\\GroupDevice.cs",
+              "ToolTip": "C:\\Users\\erlin\\OneDrive\\Dokumenter\\GitHub\\Gruppe4\\IoTProject\\IoTProject.Core\\Domain\\GroupDevice.cs",
+              "RelativeToolTip": "IoTProject.Core\\Domain\\GroupDevice.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T23:55:49.467Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "IGroupDeviceRepository.cs",
               "DocumentMoniker": "C:\\Users\\erlin\\OneDrive\\Dokumenter\\GitHub\\Gruppe4\\IoTProject\\IoTProject.Core\\Ports\\IGroupDeviceRepository.cs",
               "RelativeDocumentMoniker": "IoTProject.Core\\Ports\\IGroupDeviceRepository.cs",
@@ -160,43 +238,57 @@
               "RelativeToolTip": "IoTProject.Core\\Ports\\IGroupDeviceRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-21T16:34:25.334Z"
+              "WhenOpened": "2024-10-21T16:34:25.334Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FileStorageGroupDeviceRepository.cs",
+              "DocumentMoniker": "C:\\Users\\erlin\\OneDrive\\Dokumenter\\GitHub\\Gruppe4\\IoTProject\\IoTProject.Infrastructure\\FileStorage\\FileStorageGroupDeviceRepository.cs",
+              "RelativeDocumentMoniker": "IoTProject.Infrastructure\\FileStorage\\FileStorageGroupDeviceRepository.cs",
+              "ToolTip": "C:\\Users\\erlin\\OneDrive\\Dokumenter\\GitHub\\Gruppe4\\IoTProject\\IoTProject.Infrastructure\\FileStorage\\FileStorageGroupDeviceRepository.cs",
+              "RelativeToolTip": "IoTProject.Infrastructure\\FileStorage\\FileStorageGroupDeviceRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T16:36:59.559Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GroupDeviceService.cs",
+              "DocumentMoniker": "C:\\Users\\erlin\\OneDrive\\Dokumenter\\GitHub\\Gruppe4\\IoTProject\\IoTProject.Application\\Services\\GroupDeviceService.cs",
+              "RelativeDocumentMoniker": "IoTProject.Application\\Services\\GroupDeviceService.cs",
+              "ToolTip": "C:\\Users\\erlin\\OneDrive\\Dokumenter\\GitHub\\Gruppe4\\IoTProject\\IoTProject.Application\\Services\\GroupDeviceService.cs",
+              "RelativeToolTip": "IoTProject.Application\\Services\\GroupDeviceService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T16:43:03.314Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Device.cs",
-              "DocumentMoniker": "C:\\Users\\erlin\\OneDrive\\Dokumenter\\GitHub\\Gruppe4\\IoTProject\\IoTProject.Core\\Domain\\Device.cs",
-              "RelativeDocumentMoniker": "IoTProject.Core\\Domain\\Device.cs",
-              "ToolTip": "C:\\Users\\erlin\\OneDrive\\Dokumenter\\GitHub\\Gruppe4\\IoTProject\\IoTProject.Core\\Domain\\Device.cs",
-              "RelativeToolTip": "IoTProject.Core\\Domain\\Device.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABwAAAAXAAAAAAAAAA==",
+              "Title": "IGroupDeviceService.cs",
+              "DocumentMoniker": "C:\\Users\\erlin\\OneDrive\\Dokumenter\\GitHub\\Gruppe4\\IoTProject\\IoTProject.Core\\Ports\\IGroupDeviceService.cs",
+              "RelativeDocumentMoniker": "IoTProject.Core\\Ports\\IGroupDeviceService.cs",
+              "ToolTip": "C:\\Users\\erlin\\OneDrive\\Dokumenter\\GitHub\\Gruppe4\\IoTProject\\IoTProject.Core\\Ports\\IGroupDeviceService.cs",
+              "RelativeToolTip": "IoTProject.Core\\Ports\\IGroupDeviceService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-19T23:45:45.005Z",
+              "WhenOpened": "2024-10-21T16:42:24.725Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "GroupDevice.cs",
-              "DocumentMoniker": "C:\\Users\\erlin\\OneDrive\\Dokumenter\\GitHub\\Gruppe4\\IoTProject\\IoTProject.Core\\Domain\\GroupDevice.cs",
-              "RelativeDocumentMoniker": "IoTProject.Core\\Domain\\GroupDevice.cs",
-              "ToolTip": "C:\\Users\\erlin\\OneDrive\\Dokumenter\\GitHub\\Gruppe4\\IoTProject\\IoTProject.Core\\Domain\\GroupDevice.cs",
-              "RelativeToolTip": "IoTProject.Core\\Domain\\GroupDevice.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-19T23:55:49.467Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 1,
               "Title": "GroupDeviceController.cs",
               "DocumentMoniker": "C:\\Users\\erlin\\OneDrive\\Dokumenter\\GitHub\\Gruppe4\\IoTProject\\IoTProject.Web\\Controllers\\GroupDeviceController.cs",
               "RelativeDocumentMoniker": "IoTProject.Web\\Controllers\\GroupDeviceController.cs",
               "ToolTip": "C:\\Users\\erlin\\OneDrive\\Dokumenter\\GitHub\\Gruppe4\\IoTProject\\IoTProject.Web\\Controllers\\GroupDeviceController.cs",
               "RelativeToolTip": "IoTProject.Web\\Controllers\\GroupDeviceController.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAgwDQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-21T16:48:37.958Z",
               "EditorCaption": ""
@@ -204,39 +296,41 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\erlin\\OneDrive\\Dokumenter\\GitHub\\Gruppe4\\IoTProject\\IoTProject.Web\\Views\\GroupDevice\\Index.cshtml",
-              "RelativeDocumentMoniker": "IoTProject.Web\\Views\\GroupDevice\\Index.cshtml",
-              "ToolTip": "C:\\Users\\erlin\\OneDrive\\Dokumenter\\GitHub\\Gruppe4\\IoTProject\\IoTProject.Web\\Views\\GroupDevice\\Index.cshtml",
-              "RelativeToolTip": "IoTProject.Web\\Views\\GroupDevice\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAVAAAAAAAAAA==",
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\erlin\\OneDrive\\Dokumenter\\GitHub\\Gruppe4\\IoTProject\\IoTProject.Web\\Views\\GroupDevice\\Create.cshtml",
+              "RelativeDocumentMoniker": "IoTProject.Web\\Views\\GroupDevice\\Create.cshtml",
+              "ToolTip": "C:\\Users\\erlin\\OneDrive\\Dokumenter\\GitHub\\Gruppe4\\IoTProject\\IoTProject.Web\\Views\\GroupDevice\\Create.cshtml",
+              "RelativeToolTip": "IoTProject.Web\\Views\\GroupDevice\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-21T16:58:47.744Z",
+              "WhenOpened": "2024-10-21T16:59:48.314Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DeviceService.cs",
+              "DocumentMoniker": "C:\\Users\\erlin\\OneDrive\\Dokumenter\\GitHub\\Gruppe4\\IoTProject\\IoTProject.Application\\Services\\DeviceService.cs",
+              "RelativeDocumentMoniker": "IoTProject.Application\\Services\\DeviceService.cs",
+              "ToolTip": "C:\\Users\\erlin\\OneDrive\\Dokumenter\\GitHub\\Gruppe4\\IoTProject\\IoTProject.Application\\Services\\DeviceService.cs",
+              "RelativeToolTip": "IoTProject.Application\\Services\\DeviceService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T17:54:43.213Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 16,
-              "Title": "IGroupDeviceService.cs",
-              "DocumentMoniker": "C:\\Users\\erlin\\OneDrive\\Dokumenter\\GitHub\\Gruppe4\\IoTProject\\IoTProject.Core\\Ports\\IGroupDeviceService.cs",
-              "RelativeDocumentMoniker": "IoTProject.Core\\Ports\\IGroupDeviceService.cs",
-              "ToolTip": "C:\\Users\\erlin\\OneDrive\\Dokumenter\\GitHub\\Gruppe4\\IoTProject\\IoTProject.Core\\Ports\\IGroupDeviceService.cs",
-              "RelativeToolTip": "IoTProject.Core\\Ports\\IGroupDeviceService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-21T16:42:24.725Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\erlin\\OneDrive\\Dokumenter\\GitHub\\Gruppe4\\IoTProject\\IoTProject.Web\\Program.cs",
-              "RelativeDocumentMoniker": "IoTProject.Web\\Program.cs",
-              "ToolTip": "C:\\Users\\erlin\\OneDrive\\Dokumenter\\GitHub\\Gruppe4\\IoTProject\\IoTProject.Web\\Program.cs",
-              "RelativeToolTip": "IoTProject.Web\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-21T17:00:31.419Z"
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\erlin\\OneDrive\\Dokumenter\\GitHub\\Gruppe4\\IoTProject\\IoTProject.Web\\Views\\GroupDevice\\Index.cshtml",
+              "RelativeDocumentMoniker": "IoTProject.Web\\Views\\GroupDevice\\Index.cshtml",
+              "ToolTip": "C:\\Users\\erlin\\OneDrive\\Dokumenter\\GitHub\\Gruppe4\\IoTProject\\IoTProject.Web\\Views\\GroupDevice\\Index.cshtml",
+              "RelativeToolTip": "IoTProject.Web\\Views\\GroupDevice\\Index.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB0AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-21T16:58:47.744Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -252,83 +346,6 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Esp32.cs",
-              "DocumentMoniker": "C:\\Users\\erlin\\OneDrive\\Dokumenter\\GitHub\\Gruppe4\\IoTProject\\IoTProject.Core\\Domain\\Esp32.cs",
-              "RelativeDocumentMoniker": "IoTProject.Core\\Domain\\Esp32.cs",
-              "ToolTip": "C:\\Users\\erlin\\OneDrive\\Dokumenter\\GitHub\\Gruppe4\\IoTProject\\IoTProject.Core\\Domain\\Esp32.cs",
-              "RelativeToolTip": "IoTProject.Core\\Domain\\Esp32.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-21T15:35:00.239Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "FileStorageGroupDeviceRepository.cs",
-              "DocumentMoniker": "C:\\Users\\erlin\\OneDrive\\Dokumenter\\GitHub\\Gruppe4\\IoTProject\\IoTProject.Infrastructure\\FileStorage\\FileStorageGroupDeviceRepository.cs",
-              "RelativeDocumentMoniker": "IoTProject.Infrastructure\\FileStorage\\FileStorageGroupDeviceRepository.cs",
-              "ToolTip": "C:\\Users\\erlin\\OneDrive\\Dokumenter\\GitHub\\Gruppe4\\IoTProject\\IoTProject.Infrastructure\\FileStorage\\FileStorageGroupDeviceRepository.cs",
-              "RelativeToolTip": "IoTProject.Infrastructure\\FileStorage\\FileStorageGroupDeviceRepository.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAsAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-21T16:36:59.559Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "GroupDeviceService.cs",
-              "DocumentMoniker": "C:\\Users\\erlin\\OneDrive\\Dokumenter\\GitHub\\Gruppe4\\IoTProject\\IoTProject.Application\\Services\\GroupDeviceService.cs",
-              "RelativeDocumentMoniker": "IoTProject.Application\\Services\\GroupDeviceService.cs",
-              "ToolTip": "C:\\Users\\erlin\\OneDrive\\Dokumenter\\GitHub\\Gruppe4\\IoTProject\\IoTProject.Application\\Services\\GroupDeviceService.cs",
-              "RelativeToolTip": "IoTProject.Application\\Services\\GroupDeviceService.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-21T16:43:03.314Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\erlin\\OneDrive\\Dokumenter\\GitHub\\Gruppe4\\IoTProject\\IoTProject.Web\\Views\\GroupDevice\\Create.cshtml",
-              "RelativeDocumentMoniker": "IoTProject.Web\\Views\\GroupDevice\\Create.cshtml",
-              "ToolTip": "C:\\Users\\erlin\\OneDrive\\Dokumenter\\GitHub\\Gruppe4\\IoTProject\\IoTProject.Web\\Views\\GroupDevice\\Create.cshtml",
-              "RelativeToolTip": "IoTProject.Web\\Views\\GroupDevice\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-21T16:59:48.314Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\erlin\\OneDrive\\Dokumenter\\GitHub\\Gruppe4\\IoTProject\\IoTProject.Web\\Views\\Device\\Index.cshtml",
-              "RelativeDocumentMoniker": "IoTProject.Web\\Views\\Device\\Index.cshtml",
-              "ToolTip": "C:\\Users\\erlin\\OneDrive\\Dokumenter\\GitHub\\Gruppe4\\IoTProject\\IoTProject.Web\\Views\\Device\\Index.cshtml",
-              "RelativeToolTip": "IoTProject.Web\\Views\\Device\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-22T18:19:54.174Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "DeviceService.cs",
-              "DocumentMoniker": "C:\\Users\\erlin\\OneDrive\\Dokumenter\\GitHub\\Gruppe4\\IoTProject\\IoTProject.Application\\Services\\DeviceService.cs",
-              "RelativeDocumentMoniker": "IoTProject.Application\\Services\\DeviceService.cs",
-              "ToolTip": "C:\\Users\\erlin\\OneDrive\\Dokumenter\\GitHub\\Gruppe4\\IoTProject\\IoTProject.Application\\Services\\DeviceService.cs",
-              "RelativeToolTip": "IoTProject.Application\\Services\\DeviceService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T17:54:43.213Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 15,
               "Title": "IDeviceRepository.cs",
               "DocumentMoniker": "C:\\Users\\erlin\\OneDrive\\Dokumenter\\GitHub\\Gruppe4\\IoTProject\\IoTProject.Core\\Ports\\IDeviceRepository.cs",
@@ -337,31 +354,20 @@
               "RelativeToolTip": "IoTProject.Core\\Ports\\IDeviceRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T17:40:14.173Z"
+              "WhenOpened": "2024-10-22T17:40:14.173Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "FileStorageDeviceRepository.cs",
-              "DocumentMoniker": "C:\\Users\\erlin\\OneDrive\\Dokumenter\\GitHub\\Gruppe4\\IoTProject\\IoTProject.Infrastructure\\FileStorage\\FileStorageDeviceRepository.cs",
-              "RelativeDocumentMoniker": "IoTProject.Infrastructure\\FileStorage\\FileStorageDeviceRepository.cs",
-              "ToolTip": "C:\\Users\\erlin\\OneDrive\\Dokumenter\\GitHub\\Gruppe4\\IoTProject\\IoTProject.Infrastructure\\FileStorage\\FileStorageDeviceRepository.cs",
-              "RelativeToolTip": "IoTProject.Infrastructure\\FileStorage\\FileStorageDeviceRepository.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAcwDwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T17:41:57.439Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "DeviceController.cs",
-              "DocumentMoniker": "C:\\Users\\erlin\\OneDrive\\Dokumenter\\GitHub\\Gruppe4\\IoTProject\\IoTProject.Web\\Controllers\\DeviceController.cs",
-              "RelativeDocumentMoniker": "IoTProject.Web\\Controllers\\DeviceController.cs",
-              "ToolTip": "C:\\Users\\erlin\\OneDrive\\Dokumenter\\GitHub\\Gruppe4\\IoTProject\\IoTProject.Web\\Controllers\\DeviceController.cs",
-              "RelativeToolTip": "IoTProject.Web\\Controllers\\DeviceController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T18:17:29.891Z"
+              "DocumentIndex": 17,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\erlin\\OneDrive\\Dokumenter\\GitHub\\Gruppe4\\IoTProject\\IoTProject.Web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "IoTProject.Web\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\erlin\\OneDrive\\Dokumenter\\GitHub\\Gruppe4\\IoTProject\\IoTProject.Web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "IoTProject.Web\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-22T20:56:50.72Z"
             },
             {
               "$type": "Document",

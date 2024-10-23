@@ -8,5 +8,10 @@
     "DeviceName": "Philips Hue",
     "Type": "Lys2",
     "Status": false
+  },
+  {
+    "DeviceName": "Philips Hue",
+    "Type": "Lys",
+    "Status": false
   }
 ]

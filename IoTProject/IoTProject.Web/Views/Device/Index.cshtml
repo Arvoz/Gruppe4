@@ -20,6 +20,9 @@
                     <td>@device.DeviceName</td>
                     <td>@device.Type</td>
                     <td>@(device.Status ? "Active" : "Inactive")</td>
+                    <td>
+                        <button asp-action="Delete" asp-route-id="@device.DeviceName">Delete</button>
+                    </td>
                 </tr>
             }
         </tbody>
