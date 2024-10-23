@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\erlin\\OneDrive\\Dokumenter\\GitHub\\Gruppe4\\gui\\SimpleGUIApp\\SimpleGUIApp.csproj": {}
+    "C:\\Users\\sos_s\\Downloads\\SimpleGUIApp (2)\\SimpleGUIApp\\SimpleGUIApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\erlin\\OneDrive\\Dokumenter\\GitHub\\Gruppe4\\gui\\SimpleGUIApp\\SimpleGUIApp.csproj": {
+    "C:\\Users\\sos_s\\Downloads\\SimpleGUIApp (2)\\SimpleGUIApp\\SimpleGUIApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\erlin\\OneDrive\\Dokumenter\\GitHub\\Gruppe4\\gui\\SimpleGUIApp\\SimpleGUIApp.csproj",
+        "projectUniqueName": "C:\\Users\\sos_s\\Downloads\\SimpleGUIApp (2)\\SimpleGUIApp\\SimpleGUIApp.csproj",
         "projectName": "SimpleGUIApp",
-        "projectPath": "C:\\Users\\erlin\\OneDrive\\Dokumenter\\GitHub\\Gruppe4\\gui\\SimpleGUIApp\\SimpleGUIApp.csproj",
-        "packagesPath": "C:\\Users\\erlin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\erlin\\OneDrive\\Dokumenter\\GitHub\\Gruppe4\\gui\\SimpleGUIApp\\obj\\",
+        "projectPath": "C:\\Users\\sos_s\\Downloads\\SimpleGUIApp (2)\\SimpleGUIApp\\SimpleGUIApp.csproj",
+        "packagesPath": "C:\\Users\\sos_s\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sos_s\\Downloads\\SimpleGUIApp (2)\\SimpleGUIApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
+<<<<<<< Updated upstream
           "C:\\Users\\erlin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+=======
+          "C:\\Users\\sos_s\\AppData\\Roaming\\NuGet\\NuGet.Config"
+>>>>>>> Stashed changes
         ],
         "originalTargetFrameworks": [
           "net6.0-windows"
