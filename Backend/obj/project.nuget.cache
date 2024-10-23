@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ol6CYieEalg=",
+  "dgSpecHash": "OhRDz8iTxns=",
   "success": true,
-  "projectFilePath": "C:\\Users\\erlin\\OneDrive\\Dokumenter\\Prosjekt_Gruppe4\\Backend\\Backend\\Backend.csproj",
+  "projectFilePath": "C:\\Users\\erlin\\OneDrive\\Dokumenter\\GitHub\\Gruppe4\\Backend\\Backend.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\erlin\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
     "C:\\Users\\erlin\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
