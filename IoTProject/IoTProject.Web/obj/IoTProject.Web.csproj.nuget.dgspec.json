@@ -1,0 +1,261 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\sos_s\\Documents\\GitHub\\Gruppe4\\IoTProject\\IoTProject.Web\\IoTProject.Web.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\sos_s\\Documents\\GitHub\\Gruppe4\\IoTProject\\IoTProject.Application\\IoTProject.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\sos_s\\Documents\\GitHub\\Gruppe4\\IoTProject\\IoTProject.Application\\IoTProject.Application.csproj",
+        "projectName": "IoTProject.Application",
+        "projectPath": "C:\\Users\\sos_s\\Documents\\GitHub\\Gruppe4\\IoTProject\\IoTProject.Application\\IoTProject.Application.csproj",
+        "packagesPath": "C:\\Users\\sos_s\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sos_s\\Documents\\GitHub\\Gruppe4\\IoTProject\\IoTProject.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\sos_s\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\sos_s\\Documents\\GitHub\\Gruppe4\\IoTProject\\IoTProject.Core\\IoTProject.Core.csproj": {
+                "projectPath": "C:\\Users\\sos_s\\Documents\\GitHub\\Gruppe4\\IoTProject\\IoTProject.Core\\IoTProject.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\sos_s\\Documents\\GitHub\\Gruppe4\\IoTProject\\IoTProject.Core\\IoTProject.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\sos_s\\Documents\\GitHub\\Gruppe4\\IoTProject\\IoTProject.Core\\IoTProject.Core.csproj",
+        "projectName": "IoTProject.Core",
+        "projectPath": "C:\\Users\\sos_s\\Documents\\GitHub\\Gruppe4\\IoTProject\\IoTProject.Core\\IoTProject.Core.csproj",
+        "packagesPath": "C:\\Users\\sos_s\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sos_s\\Documents\\GitHub\\Gruppe4\\IoTProject\\IoTProject.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\sos_s\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\sos_s\\Documents\\GitHub\\Gruppe4\\IoTProject\\IoTProject.Infrastructure\\IoTProject.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\sos_s\\Documents\\GitHub\\Gruppe4\\IoTProject\\IoTProject.Infrastructure\\IoTProject.Infrastructure.csproj",
+        "projectName": "IoTProject.Infrastructure",
+        "projectPath": "C:\\Users\\sos_s\\Documents\\GitHub\\Gruppe4\\IoTProject\\IoTProject.Infrastructure\\IoTProject.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\sos_s\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sos_s\\Documents\\GitHub\\Gruppe4\\IoTProject\\IoTProject.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\sos_s\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\sos_s\\Documents\\GitHub\\Gruppe4\\IoTProject\\IoTProject.Core\\IoTProject.Core.csproj": {
+                "projectPath": "C:\\Users\\sos_s\\Documents\\GitHub\\Gruppe4\\IoTProject\\IoTProject.Core\\IoTProject.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\sos_s\\Documents\\GitHub\\Gruppe4\\IoTProject\\IoTProject.Web\\IoTProject.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\sos_s\\Documents\\GitHub\\Gruppe4\\IoTProject\\IoTProject.Web\\IoTProject.Web.csproj",
+        "projectName": "IoTProject.Web",
+        "projectPath": "C:\\Users\\sos_s\\Documents\\GitHub\\Gruppe4\\IoTProject\\IoTProject.Web\\IoTProject.Web.csproj",
+        "packagesPath": "C:\\Users\\sos_s\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sos_s\\Documents\\GitHub\\Gruppe4\\IoTProject\\IoTProject.Web\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\sos_s\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\sos_s\\Documents\\GitHub\\Gruppe4\\IoTProject\\IoTProject.Application\\IoTProject.Application.csproj": {
+                "projectPath": "C:\\Users\\sos_s\\Documents\\GitHub\\Gruppe4\\IoTProject\\IoTProject.Application\\IoTProject.Application.csproj"
+              },
+              "C:\\Users\\sos_s\\Documents\\GitHub\\Gruppe4\\IoTProject\\IoTProject.Core\\IoTProject.Core.csproj": {
+                "projectPath": "C:\\Users\\sos_s\\Documents\\GitHub\\Gruppe4\\IoTProject\\IoTProject.Core\\IoTProject.Core.csproj"
+              },
+              "C:\\Users\\sos_s\\Documents\\GitHub\\Gruppe4\\IoTProject\\IoTProject.Infrastructure\\IoTProject.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\sos_s\\Documents\\GitHub\\Gruppe4\\IoTProject\\IoTProject.Infrastructure\\IoTProject.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
